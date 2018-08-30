@@ -1,0 +1,552 @@
+p{
+	margin: 0;
+	padding: 0;
+}
+
+h2{
+    font-size: 64px;
+}
+h3{
+    font-size: 48px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.77;
+  letter-spacing: -0.7px;
+  text-align: center;
+  font-family: 'MavenPro-Black';
+  color: #2a3271;
+    margin: 0 0 50px;
+}
+
+/*шапка header*/
+
+header {
+    padding: 20px 50px 10px;
+}
+
+.logo_header {
+    display: flex;
+    align-items: center;
+}
+.logo_header img {
+    margin-right: 15px;
+}
+.logo_header p{
+    width: 73px;
+    height: 18px;
+    font-family: 'MavenPro-Bold';
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    color: #2a3271;
+}
+
+.nav_header ul {
+    display: flex;
+    justify-content: flex-end;
+}
+.nav_header ul li a{
+  font-family: 'MavenPro-Regular';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: right;
+  color: #343b5c;
+}
+.nav_header ul li {
+    padding: 0 14px;
+    list-style-type: none;
+}
+.header_btn {
+    display: flex;
+    justify-content: flex-end;
+}
+select.form-control {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearancce: none;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 31px;
+    background-origin: padding-box;
+    background-image: url(../img/ic-country@3x.png);
+    padding: 6px 5px 5px 35px;
+    border: none;
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+  color: #343b5c;
+}
+
+.header_btn .btn{
+    height: 40px;
+    font-family: 'MavenPro-Bold';
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: #56c0fd;
+    padding: 10px 32px;
+    border: 1px solid #56c0fd;
+    margin: 0px 0px 0 16px;
+    border-radius: 33px;
+    transition: .6s;
+}
+
+.header_btn .btn:hover{
+    color: #ffffff;
+    background-color: #56c0fd;
+}
+.nav_btn{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    height: 40px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+
+/*конец шапка header end*/
+
+
+/*банер_1*/
+
+.baner{
+	margin-top: 155px;
+	margin-left: 150px;
+}
+.baner_1.bgr {
+    background-image: url(../img/Group1.svg);
+    height: 100%;
+    width: 100%;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size: unset;
+}
+.baner .h1 h1{
+	font-size: 100px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.85;
+  letter-spacing: -3px;
+  color: #2a3271;
+  font-family: 'MavenPro-Black';
+} 
+.s1{
+    color: #56c0fd; 
+}
+.baner p{
+    font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: 0.6px;
+  color: #878ea7;
+  font-family: 'MavenPro-Regular';
+  margin: 30px 0px 15px;
+}
+
+.baner_1 form {
+    margin: 34px 0 200px;
+}
+
+/*банер_1 конец*/
+
+/*банер_2*/
+
+
+.baner_2.bgr {
+    background-image: url(../img/Group2.png);
+    height: 100%;
+    width: 100%;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size: unset;
+}
+.baner.bnr-mr-r{
+    margin-right: 90px;
+}
+.baner  h2{
+    font-size: 64px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.1px;
+  color: #2a3271;
+  font-family: 'MavenPro-Black';
+  margin: 0;
+}
+.b-btn-a a{
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.7px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 78px;
+  background-color: #8de37f;
+  box-shadow: 0 20px 42px -8px rgba(141, 227, 127, 0.82);
+    padding: 21px 32px;
+    font-family: 'MavenPro-Bold';
+}
+.b-btn-a {
+    margin: 65px 0;
+}
+.baner .top_a{
+    font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.3px;
+  text-align: center;
+  color: #56c0fd;
+  text-transform: uppercase;
+  font-family: 'MavenPro-Regular';
+}
+/*банер_2 конец*/
+
+
+/*банер_3*/
+
+.baner.bnr-mr-f{
+    margin-left: 0px;
+    margin-right: 150px;
+}
+
+.baner_3.bgr {
+    background-image: url(../img/group.svg);
+    height: 100%;
+    width: 100%;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size: unset;
+}
+
+
+/*банер_3 конец*/
+
+
+/*банер_4*/
+
+
+.baner_4.bgr {
+    background-image: url(../img/Illustration.png);
+    height: 100%;
+    width: 100%;
+    background-position-x: right;
+    background-repeat: no-repeat;
+        background-size: auto;
+    background-position-y: bottom;
+}
+
+.baner.bnr-mr{
+    margin-left: 130px;
+    margin-right: 129px;
+}
+.text.text-left{
+    width: 625px;
+}
+.text.text-left p{
+    width: 412px;
+}
+/*банер_4 конец*/
+
+
+/*галерея*/
+.gallery {
+    margin: 290px 0 300px;
+}
+
+.tex_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery_blok {
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 31px 30px;
+    border-radius: 12px;
+    background-color: rgba(66, 33, 9, 0.3);
+    margin-bottom: 30px;
+}
+
+.gallery h3,
+.gallery .btn_a{
+    text-align: center;
+}
+.gallery_blok_1{
+    background-image: url(../img/Rectangle1.png);
+}
+.gallery_blok_2{
+    background-image: url(../img/Rectangle2.png);
+}
+.gallery_blok_3{
+    background-image: url(../img/Rectangle3.png);
+}
+.gallery_blok_4{
+    background-image: url(../img/Rectangle4.png);
+}
+.gallery_blok_5{
+    background-image: url(../img/Rectangle5.png);
+}
+.gll-b-btn-a {
+    text-align: center;
+}
+.gallery .tex_top p{
+     font-family: 'MavenPro-Medium';
+    font-size: 30px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.8;
+  letter-spacing: -1px;
+  color: #ffffff;
+  text-align: center;
+}
+.gallery .tex_top p span{
+    font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  font-family: 'MavenPro-Regular';
+}
+.gallery .tex_top a{
+  font-family: 'MavenPro-Regular';
+      font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 24px;
+  border: solid 1.3px #56c0fd;
+  height: 30px;
+  padding: 5px 17px;
+}
+.gallery .text_botton p{
+    font-size: 27px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: #ffffff;
+  font-family: 'MavenPro-Regular';
+}
+.gallery .text_botton p span{
+    font-size: 16px;
+  font-weight: normal;
+  font-family: 'MavenPro-Regular';
+}
+/*галерея конец*/
+
+
+/*ценообразование*/
+
+.pricing_cont {
+    margin-bottom: 190px;
+}
+.column{
+    padding: 28px 30px 27px;
+}
+
+.column .align-center{
+    text-align: center;
+}
+.pricing_cont h3{
+    text-align: center;
+}
+
+.pricing_cont .column.column_top{
+    background-color: transparent;
+  box-shadow: none;
+}
+
+.pricing_cont .column.column_top p{
+    font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  text-align: center;
+  color: #56c0fd;
+  font-family: 'MavenPro-Bold';
+}
+.pricing_cont .column{
+    height: 80px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 30px -8px rgba(190, 193, 197, 0.84);
+  margin: 20px 0;
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pricing_cont .column p{
+    font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.22;
+  letter-spacing: -0.4px;
+  color: #2f5e9b;
+  font-family: 'MavenPro-Medium';
+}
+.pricing_cont .align-center p{
+    font-size: 25px;
+  letter-spacing: -0.5px;
+  color: #2a3271;
+}
+/*ценообразование конец*/
+
+/*банер / baner_5*/
+
+.baner_5.bgr {
+    background-image: url(../img/Group3.svg);
+    height: 100%;
+    width: 100%;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+.baner.bnr-ml-0{
+    margin-left: auto;
+}
+.baner_5 h3{
+    font-family: 'MavenPro-Black';
+  font-size: 46px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  color: #2a3271;
+  text-align: left;
+}
+
+/* конец банер / baner_5 end */
+
+
+/*footer / футер*/
+
+footer{
+    margin-top: 200px;
+    background-image: url(../img/bg.svg);
+    padding: 100px 0 43px;
+}
+footer .btn_a{
+    text-align: center;
+}
+.cont_footer_1{
+    margin: 82px auto 75px auto;
+}
+.display-f{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center
+}
+footer .img_a.btn_a a{
+    font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  font-family: 'MavenPro-Bold';
+  border-radius: 35px;
+  border: solid 2px #ffffff;
+  padding: 22px 37px;
+}
+footer .img_a.btn_a a img{
+    padding-right: 30px;
+}
+footer .cont_footer_1 p {
+      font-size: 19px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.9;
+    letter-spacing: 0.4px;
+    color: #ffffff;
+    font-family: 'MavenPro-Regular';
+    padding-left: 10px;
+    padding-right: 3px;
+}
+footer .cont_footer_1 sup{
+       font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 3.08;
+    letter-spacing: -0.7px;
+    color: #56c0fd;
+    font-family: 'MavenPro-Regular';
+}
+.col {
+    padding: 0;
+}
+footer .cont_footer_2 p{
+    font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  font-family: 'MavenPro-Bold';
+}
+footer .cont_footer_2 ul li{
+    font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.22;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+  font-family: 'MavenPro-Regular';
+}
+footer .cont_footer_2 ul{
+    list-style-type: none;
+     padding: 0;
+}
+/* end footer / футер конец */
+
+
+
+
+
+
+
+
