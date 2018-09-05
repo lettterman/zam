@@ -207,6 +207,7 @@ select.form-control {
   color: #2a3271;
   width: 100%;
   font-family: 'MavenPro-Regular';
+  border: none;
 }
 .baner form .in_ok{
   width: 98px;
