@@ -4,10 +4,10 @@ p{
 }
 
 h2{
-    font-size: 64px;
+  font-size: 64px;
 }
 h3{
-    font-size: 48px;
+  font-size: 48px;
   font-weight: 900;
   font-style: normal;
   font-stretch: normal;
@@ -16,38 +16,38 @@ h3{
   text-align: center;
   font-family: 'MavenPro-Black';
   color: #2a3271;
-    margin: 0 0 50px;
+  margin: 0 0 50px;
 }
 
 /*шапка header*/
 
 header {
-    padding: 20px 50px 10px;
+  padding: 20px 50px 10px;
 }
 
 .logo_header {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .logo_header img {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 .logo_header p{
-    width: 73px;
-    height: 18px;
-    font-family: 'MavenPro-Bold';
-    font-size: 18px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 0.6px;
-    color: #2a3271;
+  width: 73px;
+  height: 18px;
+  font-family: 'MavenPro-Bold';
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  color: #2a3271;
 }
 
 .nav_header ul {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 .nav_header ul li a{
   font-family: 'MavenPro-Regular';
@@ -61,24 +61,24 @@ header {
   color: #343b5c;
 }
 .nav_header ul li {
-    padding: 0 14px;
-    list-style-type: none;
+  padding: 0 14px;
+  list-style-type: none;
 }
 .header_btn {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 select.form-control {
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    appearancce: none;
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: 31px;
-    background-origin: padding-box;
-    background-image: url(../img/ic-country@3x.png);
-    padding: 6px 5px 5px 35px;
-    border: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearancce: none;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 31px;
+  background-origin: padding-box;
+  background-image: url(../img/ic-country@3x.png);
+  padding: 6px 5px 5px 35px;
+  border: none;
   font-size: 14px;
   font-weight: normal;
   letter-spacing: 0.5px;
@@ -86,36 +86,36 @@ select.form-control {
 }
 
 .header_btn .btn{
-    height: 40px;
-    font-family: 'MavenPro-Bold';
-    font-size: 16px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: -0.5px;
-    text-align: center;
-    color: #56c0fd;
-    padding: 10px 32px;
-    border: 1px solid #56c0fd;
-    margin: 0px 0px 0 16px;
-    border-radius: 33px;
-    transition: .6s;
+  height: 40px;
+  font-family: 'MavenPro-Bold';
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: #56c0fd;
+  padding: 10px 32px;
+  border: 1px solid #56c0fd;
+  margin: 0px 0px 0 16px;
+  border-radius: 33px;
+  transition: .6s;
 }
 
 .header_btn .btn:hover{
-    color: #ffffff;
-    background-color: #56c0fd;
+  color: #ffffff;
+  background-color: #56c0fd;
 }
 .nav_btn{
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    height: 40px;
-    justify-content: flex-end;
-    align-items: center;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  height: 40px;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 
@@ -131,12 +131,12 @@ select.form-control {
 	margin-left: 150px;
 }
 .baner_1.bgr {
-    background-image: url(../img/Group1.svg);
-    height: 100%;
-    width: 100%;
-    background-position-x: right;
-    background-repeat: no-repeat;
-    background-size: unset;
+  background-image: url(../img/Group1.svg);
+  height: 100%;
+  width: 100%;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-size: unset;
 }
 .baner .h1 h1{
 	font-size: 100px;
@@ -149,10 +149,10 @@ select.form-control {
   font-family: 'MavenPro-Black';
 } 
 .s1{
-    color: #56c0fd; 
+  color: #56c0fd; 
 }
 .baner p{
-    font-size: 18px;
+  font-size: 18px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -163,8 +163,71 @@ select.form-control {
   margin: 30px 0px 15px;
 }
 
-.baner_1 form {
-    margin: 34px 0 200px;
+.baner form {
+  margin: 50px 0 150px;
+  display: flex;
+  align-items: center;
+}
+.baner form p {
+  margin: 0px 0 3px;
+  font-size: 10px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #56c0fd;
+  font-family: 'MavenPro-Medium';
+}
+.baner form .in1{
+  width: 132px;
+  height: 70px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  margin-right: 8px;
+  border: solid 2px #ececec;
+  padding: 12px 16px
+}
+.baner form .in2{
+  width: 300px;
+  height: 70px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  margin-right: 8px;
+  border: solid 2px #ececec;
+  padding: 12px 16px
+}
+.baner form input{
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: #2a3271;
+  width: 100%;
+  font-family: 'MavenPro-Regular';
+}
+.baner form .in_ok{
+  width: 98px;
+  height: 70px;
+  border-radius: 78px;
+  background-color: #8de37f;
+  box-shadow: 0 20px 42px -8px rgba(141, 227, 127, 0.82);
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.7px;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'MavenPro-Bold';
+  padding: 22px 0;
+  margin: 0;
+}
+.baner_1 a {
+  margin-right: 10px;
 }
 
 /*банер_1 конец*/
@@ -173,18 +236,18 @@ select.form-control {
 
 
 .baner_2.bgr {
-    background-image: url(../img/Group2.png);
-    height: 100%;
-    width: 100%;
-    background-position-x: right;
-    background-repeat: no-repeat;
-    background-size: unset;
+  background-image: url(../img/Group2.png);
+  height: 100%;
+  width: 100%;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .baner.bnr-mr-r{
-    margin-right: 90px;
+  margin-right: 90px;
 }
 .baner  h2{
-    font-size: 64px;
+  font-size: 64px;
   font-weight: 900;
   font-style: normal;
   font-stretch: normal;
@@ -206,14 +269,14 @@ select.form-control {
   border-radius: 78px;
   background-color: #8de37f;
   box-shadow: 0 20px 42px -8px rgba(141, 227, 127, 0.82);
-    padding: 21px 32px;
-    font-family: 'MavenPro-Bold';
+  padding: 21px 32px;
+  font-family: 'MavenPro-Bold';
 }
 .b-btn-a {
-    margin: 65px 0;
+  margin: 65px 0;
 }
 .baner .top_a{
-    font-size: 16px;
+  font-size: 16px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -221,7 +284,7 @@ select.form-control {
   letter-spacing: 2.3px;
   text-align: center;
   color: #56c0fd;
-  text-transform: uppercase;
+  text-e;
   font-family: 'MavenPro-Regular';
 }
 /*банер_2 конец*/
@@ -230,17 +293,17 @@ select.form-control {
 /*банер_3*/
 
 .baner.bnr-mr-f{
-    margin-left: 0px;
-    margin-right: 150px;
+  margin-left: 0px;
+  margin-right: 150px;
 }
 
 .baner_3.bgr {
-    background-image: url(../img/group.svg);
-    height: 100%;
-    width: 100%;
-    background-position-x: right;
-    background-repeat: no-repeat;
-    background-size: unset;
+  background-image: url(../img/group.svg);
+  height: 100%;
+  width: 100%;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-size: unset;
 }
 
 
@@ -251,84 +314,85 @@ select.form-control {
 
 
 .baner_4.bgr {
-    background-image: url(../img/Illustration.png);
-    height: 100%;
-    width: 100%;
-    background-position-x: right;
-    background-repeat: no-repeat;
-        background-size: auto;
-    background-position-y: bottom;
+  background-image: url(../img/Illustration.png);
+  height: 100%;
+  width: 100%;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position-y: bottom;
 }
 
 .baner.bnr-mr{
-    margin-left: 130px;
-    margin-right: 129px;
+  margin-left: 130px;
+  margin-right: 129px;
 }
 .text.text-left{
-    width: 625px;
+  width: 625px;
 }
 .text.text-left p{
-    width: 412px;
+  width: 412px;
 }
 /*банер_4 конец*/
 
 
 /*галерея*/
 .gallery {
-    margin: 290px 0 300px;
+  margin: 290px 0 300px;
 }
 
 .tex_top {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .gallery_blok {
-    height: 360px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 31px 30px;
-    border-radius: 12px;
-    background-color: rgba(66, 33, 9, 0.3);
-    margin-bottom: 30px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 31px 30px;
+  border-radius: 12px;
+  background-color: rgba(66, 33, 9, 0.3);
+  margin-bottom: 30px;
+  background-size: cover;
 }
 
 .gallery h3,
 .gallery .btn_a{
-    text-align: center;
-}
-.gallery_blok_1{
-    background-image: url(../img/Rectangle1.png);
-}
-.gallery_blok_2{
-    background-image: url(../img/Rectangle2.png);
-}
-.gallery_blok_3{
-    background-image: url(../img/Rectangle3.png);
-}
-.gallery_blok_4{
-    background-image: url(../img/Rectangle4.png);
-}
-.gallery_blok_5{
-    background-image: url(../img/Rectangle5.png);
-}
-.gll-b-btn-a {
-    text-align: center;
-}
-.gallery .tex_top p{
-     font-family: 'MavenPro-Medium';
-    font-size: 30px;
-  font-weight: 900;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 0.8;
-  letter-spacing: -1px;
-  color: #ffffff;
   text-align: center;
 }
+.gallery_blok_1{
+  background-image: url(../img/Rectangle1.png);
+}
+.gallery_blok_2{
+  background-image: url(../img/Rectangle2.png);
+}
+.gallery_blok_3{
+  background-image: url(../img/Rectangle3.png);
+}
+.gallery_blok_4{
+  background-image: url(../img/Rectangle4.png);
+}
+.gallery_blok_5{
+  background-image: url(../img/Rectangle5.png);
+}
+.gll-b-btn-a {
+  text-align: center;
+}
+.gallery .tex_top p{
+ font-family: 'MavenPro-Medium';
+ font-size: 30px;
+ font-weight: 900;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 0.8;
+ letter-spacing: -1px;
+ color: #ffffff;
+ text-align: center;
+}
 .gallery .tex_top p span{
-    font-size: 18px;
+  font-size: 18px;
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
@@ -338,7 +402,7 @@ select.form-control {
 }
 .gallery .tex_top a{
   font-family: 'MavenPro-Regular';
-      font-size: 15px;
+  font-size: 15px;
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
@@ -352,7 +416,7 @@ select.form-control {
   padding: 5px 17px;
 }
 .gallery .text_botton p{
-    font-size: 27px;
+  font-size: 27px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -362,7 +426,7 @@ select.form-control {
   font-family: 'MavenPro-Regular';
 }
 .gallery .text_botton p span{
-    font-size: 16px;
+  font-size: 16px;
   font-weight: normal;
   font-family: 'MavenPro-Regular';
 }
@@ -372,26 +436,26 @@ select.form-control {
 /*ценообразование*/
 
 .pricing_cont {
-    margin-bottom: 190px;
+  margin-bottom: 190px;
 }
 .column{
-    padding: 28px 30px 27px;
+  padding: 28px 30px 27px;
 }
 
 .column .align-center{
-    text-align: center;
+  text-align: center;
 }
 .pricing_cont h3{
-    text-align: center;
+  text-align: center;
 }
 
 .pricing_cont .column.column_top{
-    background-color: transparent;
+  background-color: transparent;
   box-shadow: none;
 }
 
-.pricing_cont .column.column_top p{
-    font-size: 30px;
+.pricing_cont .column.column_top p a{
+  font-size: 30px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
@@ -401,18 +465,19 @@ select.form-control {
   color: #56c0fd;
   font-family: 'MavenPro-Bold';
 }
-.pricing_cont .column{
-    height: 80px;
+.pricing_cont .column {
+  height: auto;
   border-radius: 12px;
   background-color: #ffffff;
   box-shadow: 0 4px 30px -8px rgba(190, 193, 197, 0.84);
   margin: 20px 0;
-      display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 80px;
 }
 .pricing_cont .column p{
-    font-size: 18px;
+  font-size: 18px;
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
@@ -422,7 +487,7 @@ select.form-control {
   font-family: 'MavenPro-Medium';
 }
 .pricing_cont .align-center p{
-    font-size: 25px;
+  font-size: 25px;
   letter-spacing: -0.5px;
   color: #2a3271;
 }
@@ -431,17 +496,17 @@ select.form-control {
 /*банер / baner_5*/
 
 .baner_5.bgr {
-    background-image: url(../img/Group3.svg);
-    height: 100%;
-    width: 100%;
-    background-position-x: right;
-    background-repeat: no-repeat;
+  background-image: url(../img/Group3.svg);
+  height: 100%;
+  width: 100%;
+  background-position-x: right;
+  background-repeat: no-repeat;
 }
 .baner.bnr-ml-0{
-    margin-left: auto;
+  margin-left: auto;
 }
 .baner_5 h3{
-    font-family: 'MavenPro-Black';
+  font-family: 'MavenPro-Black';
   font-size: 46px;
   font-weight: 900;
   font-style: normal;
@@ -458,26 +523,26 @@ select.form-control {
 /*footer / футер*/
 
 footer{
-    margin-top: 200px;
-    background-image: url(../img/bg.svg);
-    padding: 100px 0 43px;
+  margin-top: 200px;
+  background-image: url(../img/bg.svg);
+  padding: 100px 0 43px;
 }
 footer .btn_a{
-    text-align: center;
+  text-align: center;
 }
 .cont_footer_1{
-    margin: 82px auto 75px auto;
+  margin: 82px auto 75px auto;
 }
 .display-f{
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    align-items: center
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center
 }
 footer .img_a.btn_a a{
-    font-size: 21px;
+  font-size: 21px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
@@ -490,35 +555,35 @@ footer .img_a.btn_a a{
   padding: 22px 37px;
 }
 footer .img_a.btn_a a img{
-    padding-right: 30px;
+  padding-right: 30px;
 }
 footer .cont_footer_1 p {
-      font-size: 19px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.9;
-    letter-spacing: 0.4px;
-    color: #ffffff;
-    font-family: 'MavenPro-Regular';
-    padding-left: 10px;
-    padding-right: 3px;
+  font-size: 19px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.9;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+  font-family: 'MavenPro-Regular';
+  padding-left: 10px;
+  padding-right: 3px;
 }
 footer .cont_footer_1 sup{
-       font-size: 12px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 3.08;
-    letter-spacing: -0.7px;
-    color: #56c0fd;
-    font-family: 'MavenPro-Regular';
+ font-size: 12px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 3.08;
+ letter-spacing: -0.7px;
+ color: #56c0fd;
+ font-family: 'MavenPro-Regular';
 }
 .col {
-    padding: 0;
+  padding: 0;
 }
 footer .cont_footer_2 p{
-    font-size: 30px;
+  font-size: 30px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
@@ -528,7 +593,7 @@ footer .cont_footer_2 p{
   font-family: 'MavenPro-Bold';
 }
 footer .cont_footer_2 ul li{
-    font-size: 18px;
+  font-size: 18px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -538,10 +603,329 @@ footer .cont_footer_2 ul li{
   font-family: 'MavenPro-Regular';
 }
 footer .cont_footer_2 ul{
-    list-style-type: none;
-     padding: 0;
+  list-style-type: none;
+  padding: 0;
+}
+footer .cont_footer_3{
+  margin-top: 120px;
+}
+footer .img_footer img{
+  padding-right: 19px;
+}
+footer .a_ul_footer{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+}
+footer .a_ul_footer ul{
+ list-style-type: none;
+ padding: 0;
+ display: -webkit-flex;
+ display: -moz-flex;
+ display: -ms-flex;
+ display: -o-flex;
+ display: flex;
+ -ms-align-items: center;
+ align-items: center;
+ margin: 0;
+}
+footer .a_ul_footer ul li{
+  color: #c5c5c5;
+  font-family: 'MavenPro-Regular';
+  padding: 0 2px;
+}
+footer .a_ul_footer ul li a{
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.5;
+  letter-spacing: 0.4px;
+  color: #c5c5c5;
+  font-family: 'MavenPro-Regular';
+  text-decoration: underline;
+
+}
+footer .a_ul_footer ul li a:hover{
+  text-decoration: none;
+}
+footer .a_ul_footer p{
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.5;
+  letter-spacing: 0.4px;
+  color: #c5c5c5;
+  font-family: 'MavenPro-Regular';
+  padding-left: 25px;
+}
+footer .display-f {
+  padding: 0;
 }
 /* end footer / футер конец */
+
+
+
+
+
+
+/* страница team  -  начало */
+
+
+.class-m{
+  margin: 80px auto -100px;
+}
+
+.cont_div{
+  width: 263px;
+
+}
+.cont_div .img_bg{
+  height: 360px;
+  background-color: #c5c5c5;
+  box-shadow: 15px 25px 42px 0 #c5c5c5;
+}
+.cont_div .img_bg_pop{
+  width: 359px;
+  height: 539px;
+  box-shadow: none;
+}
+.pop-up{
+  display: none;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+.pop{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: rgba(11, 14, 67, 0.95);
+  padding: 80px 0;
+  opacity: 0.9;
+  overflow: scroll;
+}
+.cont_div:hover .pop-up{
+  display: block;
+
+}
+
+
+
+.media_section .div_a,
+.team_section .div_a{
+  border-radius: 12px;
+  background-color: #ffffff;
+  border: solid 1px #c5c5c5;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 42px -8px #fff;
+  transition: 0.8s;
+}
+.media_section .div_a:hover,
+.team_section .div_a:hover{
+  box-shadow: 0 8px 42px -8px #b9bcc3;
+  border: #fff;
+}
+.media_section .div_a:hover a,
+.team_section .div_a:hover a{
+  letter-spacing: -0.6px;
+  color: #56c0fd;
+}
+.media_section .div_a a,
+.team_section .div_a a{
+  font-family: 'MavenPro-Medium';
+  font-size: 21px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  color: #c5c5c5;
+  transition: 0.8s;
+  text-decoration: none;
+}
+
+.team_section .cont_m{
+  margin-bottom: 50px;
+}
+
+
+.team_section .cont_div{
+  margin-bottom: 40px;
+}
+.team_section .cont_div h4{
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  color: #2a3271;
+  font-family: 'MavenPro-Bold';
+  margin-top: 23px;
+}
+.team_section .cont_div .s2{
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  color: #56c0fd;
+  font-family: 'MavenPro-Regular';
+  margin-top: 6px;
+}
+.pop_text ul {
+  padding: 0px 19px;
+}
+.pop_text ul li {
+  padding: 10px 6px;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.56;
+  letter-spacing: 0.6px;
+  color: #ffffff;
+  font-family: 'MavenPro-Regular';
+}
+.team_section .cont_div .pop_text  h4{
+  color: #fff;
+}
+
+
+/* страница team  -  конец - end */
+
+
+
+/* страница contact  -  начало */
+
+
+section.contact {
+  margin: 80px auto -100px;
+}
+
+.contact .cont_div {
+  width: 360px;
+  height: 360px;
+  border-radius: 12px;
+  background-image: linear-gradient(226deg, rgba(49, 229, 102, 0), #00c6fe);
+  box-shadow: 0 8px 42px -8px #b9bcc3;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 30px;
+  margin: 15px 0;
+}
+
+.contact .cont_div h4 {
+  font-size: 30px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+  font-family: 'MavenPro-Black';
+}
+.contact .cont_div p{
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.39;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+  font-family: 'MavenPro-Regular';
+}
+.contact .cont_f {
+  margin-top: 120px;
+}
+.contact .cont_f h3{
+  margin: 0;
+}
+.contact .cont_f p {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: #2a3271;
+  font-family: 'MavenPro-Regular';
+}
+
+.cont_f .form_contact{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+}
+.cont_f .contact_form {
+  margin: 60px 0 0;
+}
+.cont_f .contact_form .f_input {
+  width: 100%;
+  border-radius: 12px;
+  background-color: #ffffff;
+  border: solid 2px #ececec;
+  padding: 20px 15px;
+  margin: 15px 0;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: #c5c5c5;
+  font-family: 'MavenPro-Regular';
+}
+.cont_f .contact_form .f_submit {
+  padding: 20px;
+  border-radius: 78px;
+  background-color: #8de37f;
+  box-shadow: 0 20px 42px -8px rgba(141, 227, 127, 0.82);
+  border: none;
+  margin: 15px 0;
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.7px;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'MavenPro-Bold';
+}
+
 
 
 
