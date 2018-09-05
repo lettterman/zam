@@ -730,11 +730,7 @@ footer .display-f {
   display: block;
 
 }
-
-
-
-.media_section .div_a,
-.team_section .div_a{
+.div_a{
   border-radius: 12px;
   background-color: #ffffff;
   border: solid 1px #c5c5c5;
@@ -743,18 +739,15 @@ footer .display-f {
   box-shadow: 0 8px 42px -8px #fff;
   transition: 0.8s;
 }
-.media_section .div_a:hover,
-.team_section .div_a:hover{
+.div_a:hover{
   box-shadow: 0 8px 42px -8px #b9bcc3;
   border: #fff;
 }
-.media_section .div_a:hover a,
-.team_section .div_a:hover a{
+.div_a:hover a{
   letter-spacing: -0.6px;
   color: #56c0fd;
 }
-.media_section .div_a a,
-.team_section .div_a a{
+.div_a a{
   font-family: 'MavenPro-Medium';
   font-size: 21px;
   font-weight: 500;
@@ -926,6 +919,109 @@ section.contact {
   color: #ffffff;
   font-family: 'MavenPro-Bold';
 }
+
+/* страница contact  -  конец end */
+
+
+
+/* страница roadmar  -  начало */
+
+.roadmar_section .div_a {
+  border: none;
+  padding: 10px 20px;
+}
+.carousel_cont{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+.carousel-container {
+  margin: 15px auto;
+  overflow: inherit;
+}
+.carousel-container ul li{
+  width: 392px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 30px -8px rgba(190, 193, 197, 0.84);
+  padding: 18px 15px 21px 47px;
+  margin: 0 auto;
+}
+.carousel-container .img-cont{
+  width: 75px;
+  height: 75px;
+  background-color: rgba(66, 33, 9, 0.3);
+}
+.cont_img_car {
+  padding: 16px 0 0;
+}
+.carousel-container ul {
+  padding: 0;
+  margin: 0 15px;
+  display: flex;
+  flex-direction: column;
+  height: 205px;
+  justify-content: space-between;
+}
+.carousel-container ul li {
+  list-style-type: none;
+}
+.carousel-container ul li p{
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.39;
+  letter-spacing: 0.6px;
+  color: #2a3271;
+  font-family: 'MavenPro-Regular';
+}
+.class-m .gallery {
+  margin: 90px 0 0px;
+}
+.gallerey_h3_tab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.gallery h3{
+  margin: 0 0 40px;
+}
+.gallerey_h3_tab .div_a {
+  border: solid 1px #c5c5c5;
+}
+.gallerey_h3_tab .div_a:hover{
+  border: #fff;
+}
+.text_a_c{
+  text-align: center;
+  margin-top: 170px;
+}
+.text_a_c h3{
+  margin: 0;
+}
+.text_a_c p{
+  font-size: 17px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.53;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: #2a3271;
+  font-family: 'MavenPro-Regular';
+}
+
+
+
+
+
+
+
+
 
 
 

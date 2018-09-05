@@ -394,6 +394,32 @@
     .contact .cont_div {
     width: 290px;
 }
+.carousel-container ul{
+    height: auto;
+}
+.carousel-container ul li{
+    width: 290px;
+        padding: 18px 15px 15px 18px;
+}
+.carousel-container .cont_img_car{
+    display: none;
+}
+.carousel-container ul .li_bg2{
+    display: none;
+}
+.gallerey_h3_tab {
+    justify-content: center;
+}
+h3{
+    font-size: 30px;
+    line-height: 1.17;
+}
+.text_a_c p{
+    margin-top: 20px;
+}
+.text_a_c {
+    margin-top: 102px;
+}
 }
 
 
