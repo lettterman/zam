@@ -89,27 +89,28 @@
 
 		<div class="row">
 
-		    <div class="col-5">
+		    <div class="col-xl-5 col-12 col-lg-5 col-md-6 col-sm-12">
 				
-				<div class="baner_1">
+				<div class="baner_1 baner_mb">
 					<div class="h1"><h1>The fair <span class="s1">blockchain bank</span></h1></div>
 					<p>Take part in the open testing of cryptocurrency transfers by phone number and earn additional ZAM tokens</p>
 					<form action="#">
-						<select v-model="selected">
-  							<option disabled value="">Выберите один из вариантов</option>
-  							<option>А</option>
-  							<option>Б</option>
-  							<option>В</option>
-						</select>
-						<span>Выбрано: {{ selected }}</span>
-						<a href="#">ok</a>
+						<div class="in1">
+							<p>code</p>
+						    <input type="tel" placeholder="+1">
+						</div>
+						<div class="in2">
+							<p>Phone number</p>
+							<input type="tel" placeholder="(988)-888-88-88">
+						</div>
+						<a href="#" class="in_ok">ok</a>
 					</form>
 					<a href="#"><img src="img/apple.svg" alt="alt"></a>
 					<a href="#"><img src="img/android-logo.svg" alt="alt"></a>
 				</div>
 
 			</div>
-			<div class="col">
+			<div class="col-xl-7 col-12 col-lg-7 col-md-6 col-sm-12">
 
 				<div class="baner_1 bgr"></div>
 
@@ -122,9 +123,9 @@
 
 		<div class="row">
 
-		    <div class="col-5">
+		    <div class="col-xl-5 col-12 col-lg-4 col-md-5 col-sm-12">
 				
-				<div class="baner_2">
+				<div class="baner_2 baner_mb">
 					<a class="top_a" href="#">zam wallet</a>
 					<h2>Cryptocurrency wallet, as it should be</h2>
 					<p>Stop wasting your attention on dozens of financial applications with severely limited functionalities. The zam.wallet erases the boundaries between traditional money and cryptocurrencies while remaining more efficient than the market by 2-3 times.</p>
@@ -132,7 +133,7 @@
 				</div>
 
 			</div>
-			<div class="col">
+			<div class="col-xl-7 col-12 col-lg-7 col-md-6 col-sm-12">
 
 				<div class="baner_2 bgr"></div>
 
@@ -150,7 +151,7 @@
 				<div class="baner_3 bgr"></div>
 
 			</div>
-			<div class="col-5">
+			<div class="col-xl-5 col-12 col-lg-5 col-md-5 col-sm-12">
 
 				<div class="baner_3">
 					<a class="top_a" href="#">Zam Chain</a>
@@ -188,7 +189,7 @@
 		<div class="container">
 			<h3>Our <span class="s1">news</span></h3>
 		    <div class="row">
-			    <div class="col-4">
+			    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
 				    <div class="gallery_blok gallery_blok_1">
 				    	<div class="tex_top">
 				    		<p>28<br> <span>July</span></p>
@@ -200,7 +201,7 @@
 				    	</div>
 				    </div>
 			    </div>
-			    <div class="col-4">
+			    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
 			    	<div class="gallery_blok gallery_blok_2">
 				    	<div class="tex_top">
 				    		<p>28<br><span>July</span></p>
@@ -212,7 +213,7 @@
 				    	</div>
 				    </div>
 			    </div>
-			    <div class="col-4">
+			    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
 			    	<div class="gallery_blok gallery_blok_3">
 				    	<div class="tex_top">
 				    		<p>28<br><span>July</span></p>
@@ -224,9 +225,7 @@
 				    	</div>
 				    </div>
 			    </div>
-		    </div>
-		    <div class="row">
-			    <div class="col-4">
+			    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
 				    <div class="gallery_blok gallery_blok_4">
 				    	<div class="tex_top">
 				    		<p>28<br><span>July</span></p>
@@ -238,7 +237,7 @@
 				    	</div>
 				    </div>
 			    </div>
-			    <div class="col-8">
+			    <div class="col-8 col-lg-8 col-md-12 col-sm-12 col-12">
 			    	<div class="gallery_blok gallery_blok_5">
 				    	<div class="tex_top">
 				    		<p>28<br><span>July</span></p>
@@ -260,79 +259,79 @@
 			<h3>Pricing</h3>
 			<div class="column column_top">
 				<div class="row">
-					<div class="col-4"></div>
-					<div class="col-4 align-center"><p>Free</p></div>
-					<div class="col-4 align-center"><p>Premium</p></div>
+					<div class="col-xl-4 col-lg-4 col-md4 col-sm-4 col-6"></div>
+					<div class="col-xl-4 col-lg-4 col-md4 col-sm-4 col-6 align-center col_dn_1"><p> <a href="#">Free</a></p></div>
+					<div class="col-xl-4 col-lg-4 col-md4 col-sm-4 col-6 align-center col_dn_2"><p> <a href="#">Premium</a></p></div>
 				</div>
 			</div>
 			<div class="column">
 				<div class="row">
-					<div class="col-4"><p>Price</div>
-					<div class="col-4 align-center"><p>$ 0 / 0 zam</p></div>
-					<div class="col-4 align-center"><p>$ 9 / 450 zam</p></div>
+					<div class="col-xl-4 col-lg-4 col-md4 col-sm-4 col-6"><p>Price</div>
+					<div class="col-xl-4 col-lg-4 col-md4 col-sm-4 col-6 align-center col_dn_1"><p>$ 0 / 0 zam</p></div>
+					<div class="col-xl-4 col-lg-4 col-md4 col-sm-4 col-6 align-center col_dn_2"><p>$ 9 / 450 zam</p></div>
 				</div>
 			</div>
 			<div class="column">
 				<div class="row">
-					<div class="col-4 align-self-center"><p>Transfers of cryptocurrency by phone number</p></div>
-					<div class="col-4 align-center"><p>0%</p></div>
-					<div class="col-4 align-center"><p>0%</p></div>
+					<div class="col-xl-4 col-lg-4 col-md4 col-sm-4 col-6 align-self-center"><p>Transfers of cryptocurrency by phone number</p></div>
+					<div class="col-xl-4 col-lg-4 col-md4 col-sm-4 col-6 align-center col_dn_1"><p>0%</p></div>
+					<div class="col-xl-4 col-lg-4 col-md4 col-sm-4 col-6 align-center col_dn_2"><p>0%</p></div>
 				</div>
 			</div>
 			<div class="column">
 				<div class="row">
-					<div class="col-4"><p>Transfers within the bank </p></div>
-					<div class="col-4 align-center"><p>0%</p></div>
-					<div class="col-4 align-center"><p>0%</p></div>
+					<div class="col-xl-4 col-lg-4 col-md4 col-sm-4 col-6"><p>Transfers within the bank </p></div>
+					<div class="col-xl-4 col-lg-4 col-md4 col-sm-4 col-6 align-center col_dn_1"><p>0%</p></div>
+					<div class="col-xl-4 col-lg-4 col-md4 col-sm-4 col-6 align-center col_dn_2"><p>0%</p></div>
 				</div>
 			</div>
 			<div class="column">
 				<div class="row">
-					<div class="col-4"><p>External transfer of cryptocurrency</p></div>
-					<div class="col-4 align-center"><p>0.25%</p></div>
-					<div class="col-4 align-center"><p>0%</p></div>
+					<div class="col-xl-4 col-lg-4 col-md4 col-sm-4 col-6"><p>External transfer of cryptocurrency</p></div>
+					<div class="col-xl-4 col-lg-4 col-md4 col-sm-4 col-6 align-center col_dn_1"><p>0.25%</p></div>
+					<div class="col-xl-4 col-lg-4 col-md4 col-sm-4 col-6 align-center col_dn_2"><p>0%</p></div>
 				</div>
 			</div>
 			<div class="column">
 				<div class="row">
-					<div class="col-4"><p>Purchase of cryptocurrency with Visa, MasterCard, UnionPay cards</p></div>
-					<div class="col-4 align-center"><p>4%</p></div>
-					<div class="col-4 align-center"><p>3.5%</p></div>
+					<div class="col-xl-4 col-lg-4 col-md4 col-sm-4 col-6"><p>Purchase of cryptocurrency with Visa, MasterCard, UnionPay cards</p></div>
+					<div class="col-xl-4 col-lg-4 col-md4 col-sm-4 col-6 align-center col_dn_1"><p>4%</p></div>
+					<div class="col-xl-4 col-lg-4 col-md4 col-sm-4 col-6 align-center col_dn_2"><p>3.5%</p></div>
 				</div>
 			</div>
 			<div class="column">
 				<div class="row">
-					<div class="col-4"><p>Immediate withdrawal of cryptocurrency </p></div>
-					<div class="col-4 align-center"><p>2% + 1.15$</p></div>
-					<div class="col-4 align-center"><p>1% + 1.15$</p></div>
+					<div class="col-xl-4 col-lg-4 col-md4 col-sm-4 col-6"><p>Immediate withdrawal of cryptocurrency </p></div>
+					<div class="col-xl-4 col-lg-4 col-md4 col-sm-4 col-6 align-center col_dn_1"><p>2% + 1.15$</p></div>
+					<div class="col-xl-4 col-lg-4 col-md4 col-sm-4 col-6 align-center col_dn_2"><p>1% + 1.15$</p></div>
 				</div>
 			</div>
 			<div class="column">
 				<div class="row">
-					<div class="col-4"><p>Ability to bind 1 bank card for withdrawal</p></div>
-					<div class="col-4 align-center"><p>1</p></div>
-					<div class="col-4 align-center"><p>5</p></div>
+					<div class="col-xl-4 col-lg-4 col-md4 col-sm-4 col-6"><p>Ability to bind 1 bank card for withdrawal</p></div>
+					<div class="col-xl-4 col-lg-4 col-md4 col-sm-4 col-6 align-center col_dn_1"><p>1</p></div>
+					<div class="col-xl-4 col-lg-4 col-md4 col-sm-4 col-6 align-center col_dn_2"><p>5</p></div>
 				</div>
 			</div>
 			<div class="column">
 				<div class="row">
-					<div class="col-4"><p>Ability to bind 1 bank card for withdrawal</p></div>
-					<div class="col-4 align-center"><p>1</p></div>
-					<div class="col-4 align-center"><p>5</p></div>
+					<div class="col-xl-4 col-lg-4 col-md4 col-sm-4 col-6"><p>Ability to bind 1 bank card for withdrawal</p></div>
+					<div class="col-xl-4 col-lg-4 col-md4 col-sm-4 col-6 align-center col_dn_1"><p>1</p></div>
+					<div class="col-xl-4 col-lg-4 col-md4 col-sm-4 col-6 align-center col_dn_2"><p>5</p></div>
 				</div>
 			</div>
 			<div class="column">
 				<div class="row">
-					<div class="col-4"><p>Free SMS notifications of transactions per month</p></div>
-					<div class="col-4 align-center"><p>25</p></div>
-					<div class="col-4 align-center"><p>Unlimited</p></div>
+					<div class="col-xl-4 col-lg-4 col-md4 col-sm-4 col-6"><p>Free SMS notifications of transactions per month</p></div>
+					<div class="col-xl-4 col-lg-4 col-md4 col-sm-4 col-6 align-center col_dn_1"><p>25</p></div>
+					<div class="col-xl-4 col-lg-4 col-md4 col-sm-4 col-6 align-center col_dn_2"><p>Unlimited</p></div>
 				</div>
 			</div>
 			<div class="column">
 				<div class="row">
-					<div class="col-4"><p>Limit per month for withdrawal to the card</p></div>
-					<div class="col-4 align-center"><p>400 $ / 400 $</p></div>
-					<div class="col-4 align-center"><p>1000 $ / 1000 $</p></div>
+					<div class="col-xl-4 col-lg-4 col-md4 col-sm-4 col-6"><p>Limit per month for withdrawal to the card</p></div>
+					<div class="col-xl-4 col-lg-4 col-md4 col-sm-4 col-6 align-center col_dn_1"><p>400 $ / 400 $</p></div>
+					<div class="col-xl-4 col-lg-4 col-md4 col-sm-4 col-6 align-center col_dn_2"><p>1000 $ / 1000 $</p></div>
 				</div>
 			</div>
 		</div>
@@ -342,33 +341,34 @@
 		<div class="container">
 			<div class="row">
 
-			    <div class="col-5">
+			    <div class="col-xl-5 col-12 col-lg-5 col-md-5 col-sm-12">
 					
 					<div class="baner_5">
 						<div class="h3"><h3>Test zam wallet and <span class="s1">get 1000 ZAM</span> as a gift for premium payment</h3></div>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-						<form action="#">
-							<select v-model="selected">
-	  							<option disabled value="">Выберите один из вариантов</option>
-	  							<option>А</option>
-	  							<option>Б</option>
-	  							<option>В</option>
-							</select>
-							<span>Выбрано: {{ selected }}</span>
-							<a href="#">ok</a>
+						 <form action="#">
+							<div class="in1">
+								<p>code</p>
+							    <input type="tel" placeholder="+1">
+							</div>
+							<div class="in2">
+								<p>Phone number</p>
+								<input type="tel" placeholder="(988)-888-88-88">
+							</div>
+							<a href="#" class="in_ok">ok</a>
 						</form>
 					</div>
-
 				</div>
 				<div class="col">
-
 					<div class="baner_5 bgr"></div>
-
 				</div>
 				
 			</div>
 		</div>
 	</div>
+
+
+	<!-- подвал/footer -->
 
 	<footer>
 		<div class="img_a btn_a">
@@ -376,32 +376,32 @@
 		</div>
 		<div class="container cont_footer_1">
 			<div class="row">
-				<div class="col display-f">
+				<div class="col-xl-2 col-lg-2 col-md-4 col-sm-12 col-12 display-f">
 					<img src="img/telegram2.svg" alt="">
 					<p>Telegram</p>
 					<sup>2 512</sup>
 				</div>
-				<div class="col display-f">
+				<div class="col-xl-2 col-lg-2 col-md-4 col-sm-12 col-12 display-f">
 					<img src="img/Shape.svg" alt="">
 					<p>Twitter</p>
 					<sup>323</sup>
 				</div>
-				<div class="col display-f">
+				<div class="col-xl-2 col-lg-2 col-md-4 col-sm-12 col-12 display-f">
 					<img src="img/Group4.svg" alt="">
 					<p>Instagram</p>
 					<sup>214 766</sup>
 				</div>
-				<div class="col display-f">
+				<div class="col-xl-2 col-lg-2 col-md-4 col-sm-12 col-12 display-f">
 					<img src="img/medium-seeklogo.com3.svg" alt="">
 					<p>Medium</p>
 					<sup>11 432</sup>
 				</div>
-				<div class="col display-f">
+				<div class="col-xl-2 col-lg-2 col-md-4 col-sm-12 col-12 display-f">
 					<img src="img/Facebook.svg" alt="">
 					<p>Facebook</p>
 					<sup></sup>
 				</div>
-				<div class="col display-f">
+				<div class="col-xl-2 col-lg-2 col-md-4 col-sm-12 col-12 display-f">
 					<img src="img/bitcointalk-1.png" alt="">
 					<p>Bitcointak</p>
 					<sup>123</sup>
@@ -410,7 +410,7 @@
 		</div>
 		<div class="container cont_footer_2">
 			<div class="row">
-				<div class="col-3">
+				<div class="col-xl-3 c0l-lg-3 col-md-3 col-sm-12">
 					<p>Company</p>
 					<ul>
 						<li>About us</li>
@@ -419,7 +419,7 @@
 						<li>Events</li>
 					</ul>
 				</div>
-				<div class="col-3">
+				<div class="col-xl-3 c0l-lg-3 col-md-3 col-sm-12">
 					<p>Products</p>
 					<ul>
 						<li>zam.wallet</li>
@@ -427,7 +427,7 @@
 						<li>zam.chain</li>
 					</ul>
 				</div>
-				<div class="col-3">
+				<div class="col-xl-3 c0l-lg-3 col-md-3 col-sm-12">
 					<p>Media</p>
 					<ul>
 						<li>Blog</li>
@@ -435,7 +435,7 @@
 						<li>Media Kit</li>
 					</ul>
 				</div>
-				<div class="col-3">
+				<div class="col-xl-3 c0l-lg-3 col-md-3 col-sm-12">
 					<p>Support</p>
 					<ul>
 						<li>FAQ</li>
@@ -446,24 +446,27 @@
 		</div>
 		<div class="container cont_footer_3">
 			<div class="row">
-				<div class="col-5">
+				<div class="col-5 col-lg-4 col-md-4 col-sm-12 col-12">
 					<div class="img_footer">
 						<img src="img/Group22.svg" alt="alt">
 						<img src="img/Group33.svg" alt="alt">
 					</div>
 				</div>
-				<div class="col-7">
+				<div class="col">
 					<div class="a_ul_footer">
 						<ul>
-							<li><a href="#">Privacy policy</a> / </li>
-
+							<li><a href="#">Privacy policy</a></li>
+							<li>/</li>
 							<li><a href="#">Terms and conditions</a></li>
 						</ul>
+						<p>© 2018. Zamzam LLC, All rights reserved</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</footer>
+
+	<!--конец  подвал/footer  end-->
 
 <script src="js/scripts.min.js"></script>
 
