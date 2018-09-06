@@ -19,17 +19,22 @@
 	<!-- Template Basic Images End -->
 
 	<!-- Template style Start -->
+	
 	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel = "stylesheet"  href = "css/bootsrap.vue.css" />
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/font.css">
 	<link rel="stylesheet" href="css/media.css">
+	<!-- <link rel="stylesheet" href="https://unpkg.com/buefy/lib/buefy.min.css"> -->
+	<link rel="stylesheet" href="https://cdn.materialdesignicons.com/2.0.46/css/materialdesignicons.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+	<link rel="stylesheet" href="css/vue-min.css">
 	<!-- Template style End -->
 	
 	<!-- Custom Browsers Color Start -->
 	<meta name="theme-color" content="#000">
 	<!-- Custom Browsers Color End -->
 
-	<link rel="stylesheet" href="css/main.min.css">
 
 </head>
 
@@ -152,192 +157,208 @@
 				</div>
 			</div>
 
-			<div class="gallery">
+			<div class="gallery" id="app">
 				<div class="container">
 					<div class="gallerey_h3_tab">
-						<h3>Techno <span class="s1">news</span></h3>
-						<div class="tab_a">
-							<div class="container cont_m">
-								<div class="row justify-content-center ">
-									<div class="col-auto"><div class="div_a"><a href="#">All</a></div></div>
-									<div class="col-auto"><div class="div_a"><a href="#">innovation</a></div></div>
-									<div class="col-auto"><div class="div_a"><a href="#">Developmen</a></div></div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
-							<div class="gallery_blok gallery_blok_1">
-								<div class="tex_top">
-									<p>28
-										<br> 
-										<span>July</span>
-									</p>
-									<a href="#">News</a>
-								</div>
-								<div class="text_botton">
-									<p>Why did we choose the Stellar blockchain?
-										<br>
-										<span>Bruno Salmator</span>
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
-							<div class="gallery_blok gallery_blok_2">
-								<div class="tex_top">
-									<p>28
-										<br
-										><span>July</span>
-									</p>
-									<a href="#">News</a>
-								</div>
-								<div class="text_botton">
-									<p>Why did we choose the Stellar blockchain? 
-										<br>
-										<span>Bruno Salmator</span>
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
-							<div class="gallery_blok gallery_blok_3">
-								<div class="tex_top">
-									<p>28
-										<br>
-										<span>July</span>
-									</p>
-									<a href="#">News</a>
-								</div>
-								<div class="text_botton">
-									<p>Why did we choose the Stellar blockchain? 
-										<br>
-										<span>Bruno Salmator</span>
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
-							<div class="gallery_blok gallery_blok_4">
-								<div class="tex_top">
-									<p>28
-										<br>
-										<span>July</span>
-									</p>
-									<a href="#">News</a>
-								</div>
-								<div class="text_botton">
-									<p>Why did we choose the Stellar blockchain? 
-										<br>
-										<span>Bruno Salmator</span>
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-8 col-lg-8 col-md-12 col-sm-12 col-12">
-							<div class="gallery_blok gallery_blok_5">
-								<div class="tex_top">
-									<p>28
-										<br>
-										<span>July</span>
-									</p>
-									<a href="#">News</a>
-								</div>
-								<div class="text_botton">
-									<p>Why did we choose the Stellar blockchain? 
-										<br>
-										<span>Bruno Salmator</span>
-									</p>
-								</div>
-							</div>
+
+
+						<div id="app" class="container">
+							<h3>Techno <span class="s1">news</span></h3>
+
+							<section>
+
+								<b-tabs v-model="activeTab">
+
+									<b-tab-item label="All">
+
+										<div class="row">
+											<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+												<div class="gallery_blok gallery_blok_1">
+													<div class="tex_top">
+														<p>28
+															<br> 
+															<span>July</span>
+														</p>
+														<a href="#">News</a>
+													</div>
+													<div class="text_botton">
+														<p>Why did we choose the Stellar blockchain?
+															<br>
+															<span>Bruno Salmator</span>
+														</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+												<div class="gallery_blok gallery_blok_2">
+													<div class="tex_top">
+														<p>28
+															<br
+															><span>July</span>
+														</p>
+														<a href="#">News</a>
+													</div>
+													<div class="text_botton">
+														<p>Why did we choose the Stellar blockchain? 
+															<br>
+															<span>Bruno Salmator</span>
+														</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+												<div class="gallery_blok gallery_blok_3">
+													<div class="tex_top">
+														<p>28
+															<br>
+															<span>July</span>
+														</p>
+														<a href="#">News</a>
+													</div>
+													<div class="text_botton">
+														<p>Why did we choose the Stellar blockchain? 
+															<br>
+															<span>Bruno Salmator</span>
+														</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+												<div class="gallery_blok gallery_blok_4">
+													<div class="tex_top">
+														<p>28
+															<br>
+															<span>July</span>
+														</p>
+														<a href="#">News</a>
+													</div>
+													<div class="text_botton">
+														<p>Why did we choose the Stellar blockchain? 
+															<br>
+															<span>Bruno Salmator</span>
+														</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-8 col-lg-8 col-md-12 col-sm-12 col-12">
+												<div class="gallery_blok gallery_blok_5">
+													<div class="tex_top">
+														<p>28
+															<br>
+															<span>July</span>
+														</p>
+														<a href="#">News</a>
+													</div>
+													<div class="text_botton">
+														<p>Why did we choose the Stellar blockchain? 
+															<br>
+															<span>Bruno Salmator</span>
+														</p>
+													</div>
+												</div>
+											</div>
+
+											<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+												<div class="gallery_blok gallery_blok_1">
+													<div class="tex_top">
+														<p>28
+															<br> 
+															<span>July</span>
+														</p>
+														<a href="#">News</a>
+													</div>
+													<div class="text_botton">
+														<p>Why did we choose the Stellar blockchain?
+															<br>
+															<span>Bruno Salmator</span>
+														</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+												<div class="gallery_blok gallery_blok_2">
+													<div class="tex_top">
+														<p>28
+															<br
+															><span>July</span>
+														</p>
+														<a href="#">News</a>
+													</div>
+													<div class="text_botton">
+														<p>Why did we choose the Stellar blockchain? 
+															<br>
+															<span>Bruno Salmator</span>
+														</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+												<div class="gallery_blok gallery_blok_3">
+													<div class="tex_top">
+														<p>28
+															<br>
+															<span>July</span>
+														</p>
+														<a href="#">News</a>
+													</div>
+													<div class="text_botton">
+														<p>Why did we choose the Stellar blockchain? 
+															<br>
+															<span>Bruno Salmator</span>
+														</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-8 col-lg-8 col-md-12 col-sm-12 col-12">
+												<div class="gallery_blok gallery_blok_5">
+													<div class="tex_top">
+														<p>28
+															<br>
+															<span>July</span>
+														</p>
+														<a href="#">News</a>
+													</div>
+													<div class="text_botton">
+														<p>Why did we choose the Stellar blockchain? 
+															<br>
+															<span>Bruno Salmator</span>
+														</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+												<div class="gallery_blok gallery_blok_4">
+													<div class="tex_top">
+														<p>28
+															<br>
+															<span>July</span>
+														</p>
+														<a href="#">News</a>
+													</div>
+													<div class="text_botton">
+														<p>Why did we choose the Stellar blockchain? 
+															<br>
+															<span>Bruno Salmator</span>
+														</p>
+													</div>
+												</div>
+											</div>
+										</div>
+
+									</b-tab-item>
+
+									<b-tab-item label="innovation">
+										/////
+									</b-tab-item>
+
+									<b-tab-item label="Developmen">
+										/////
+									</b-tab-item>
+								</b-tabs>
+							</section>
+
 						</div>
 
-						<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
-							<div class="gallery_blok gallery_blok_1">
-								<div class="tex_top">
-									<p>28
-										<br> 
-										<span>July</span>
-									</p>
-									<a href="#">News</a>
-								</div>
-								<div class="text_botton">
-									<p>Why did we choose the Stellar blockchain?
-										<br>
-										<span>Bruno Salmator</span>
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
-							<div class="gallery_blok gallery_blok_2">
-								<div class="tex_top">
-									<p>28
-										<br
-										><span>July</span>
-									</p>
-									<a href="#">News</a>
-								</div>
-								<div class="text_botton">
-									<p>Why did we choose the Stellar blockchain? 
-										<br>
-										<span>Bruno Salmator</span>
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
-							<div class="gallery_blok gallery_blok_3">
-								<div class="tex_top">
-									<p>28
-										<br>
-										<span>July</span>
-									</p>
-									<a href="#">News</a>
-								</div>
-								<div class="text_botton">
-									<p>Why did we choose the Stellar blockchain? 
-										<br>
-										<span>Bruno Salmator</span>
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-8 col-lg-8 col-md-12 col-sm-12 col-12">
-							<div class="gallery_blok gallery_blok_5">
-								<div class="tex_top">
-									<p>28
-										<br>
-										<span>July</span>
-									</p>
-									<a href="#">News</a>
-								</div>
-								<div class="text_botton">
-									<p>Why did we choose the Stellar blockchain? 
-										<br>
-										<span>Bruno Salmator</span>
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
-							<div class="gallery_blok gallery_blok_4">
-								<div class="tex_top">
-									<p>28
-										<br>
-										<span>July</span>
-									</p>
-									<a href="#">News</a>
-								</div>
-								<div class="text_botton">
-									<p>Why did we choose the Stellar blockchain? 
-										<br>
-										<span>Bruno Salmator</span>
-									</p>
-								</div>
-							</div>
-						</div>
 					</div>
 
 					<div class="row justify-content-center text_a_c">
@@ -452,10 +473,73 @@
 		</div>
 	</footer>
 
+	<div id="app" class="container">
+
+		<section>
+			<div class="block">
+				<button class="button" @click="activeTab = 1">Set Music</button>
+			</div>
+			<div class="block">
+				<b-switch v-model="showBooks"> Show Books item </b-switch>
+			</div>
+			<b-tabs v-model="activeTab">
+				<b-tab-item label="Pictures">
+					<nav class="panel">
+						<p class="panel-heading">
+							repositories
+						</p>
+						<b-tabs v-model="activeSubTab">
+							<b-tab-item label="Pictures">
+								asdfasdfaswedf
+							</b-tab-item>
+							<b-tab-item label="Jokers">
+								Lorem ipsum dolor sit amet.
+							</b-tab-item>
+						</b-tabs>
+					</nav>
+
+
+				</b-tab-item>
+
+				<b-tab-item label="Music">
+					Lorem <br>
+					ipsum <br>
+					dolor <br>
+					sit <br>
+					amet.
+				</b-tab-item>
+
+				<b-tab-item :visible="showBooks" label="Books">
+					What light is light, if Silvia be not seen? <br>
+					What joy is joy, if Silvia be not by <br>
+					Unless it be to think that she is by <br>
+					And feed upon the shadow of perfection? <br>
+					Except I be by Silvia in the night, <br>
+					There is no music in the nightingale.
+				</b-tab-item>
+
+				<b-tab-item label="Videos" disabled>
+					Nunc nec velit nec libero vestibulum eleifend.
+					Curabitur pulvinar congue luctus.
+					Nullam hendrerit iaculis augue vitae ornare.
+					Maecenas vehicula pulvinar tellus, id sodales felis lobortis eget.
+				</b-tab-item>
+			</b-tabs>
+		</section>
+
+	</div>
+
+
+
+
 	<!--конец  подвал/footer  end-->
 
+	<script src="https://unpkg.com/buefy"></script>
+	<script src="js/vue-tabs.js"></script>
+	<script src="js/vue.js"></script>
+	<script src="js/ccommond.js"></script>
 
-	<script src="js/scripts.min.js"></script>
+
 
 </body>
 </html>
