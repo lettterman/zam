@@ -16,6 +16,9 @@
 	<meta property="og:image" content="path/to/image.jpg">
 	<link rel="icon" href="img/favicon/favicon.ico">
 	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<style>
+	@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+</style>
 	<!-- Template Basic Images End -->
 
 	<!-- Template style Start -->
@@ -56,12 +59,13 @@
 				<div class="nav_btn">
 					<div class="nav_header">
 						<ul>
+							<li><a href="index.html">Home</a></li>
 							<li><a href="roadmar.html">Roadmap</a></li>
-							<li><a href="#">Token</a></li>
-							<li><a href="media.html">Media</a></li>
+							<li class="d_none_li" ><a href="#">Token</a></li>
+							<li class="d_none_li" ><a href="media.html">Media</a></li>
 							<li><a href="team.html">Team</a></li>
-							<li><a href="#">Careers</a></li>
-							<li><a href="#">FAQ</a></li>
+							<li class="d_none_li" ><a href="#">Careers</a></li>
+							<li class="d_none_li" ><a href="#">FAQ</a></li>
 							<li><a href="contact.html">Contacts</a></li>
 						</ul>
 					</div>
@@ -72,21 +76,64 @@
 									<select class="form-control">
 										<option>RUS</option>
 										<option>EN</option>
+										<option>한국</option>
 									</select>
 								</form>
 							</section>
 						</div>
 						<a href="#" class="btn btn_login">
-							login
+							Login
 						</a>
 						<a href="#" class="btn btn_up">
 							Sing up
 						</a>
+						<div class="bg_menu">
+							<div id="app-1">
+								<nav>
+									<transition name="fade" mode="out-in">
+
+										<i class="material-icons menu" v-if="!show" @click="show = !show" key="menu">menu</i>
+										<i class="material-icons clear" v-else @click="show = !show" key="clear" >clear</i>
+
+									</transition>
+
+									<transition name="fade">
+
+										<ul v-if="show">
+											<li v-for="item in items">{{ item }}</li>
+											<li class="m_d-f-c" ><div>
+												<section class="container">
+													<form class="form-horizontal form-horizontal_m">
+														<select class="form-control">
+															<option>RUS</option>
+															<option>EN</option>
+															<option>한국</option>
+														</select>
+													</form>
+												</section>
+											</div>
+											<div class="d-f-m-a" >
+												<a href="#" class="btn btn_login btn_login_m">
+													Login
+												</a>
+												<a href="#" class="btn btn_up btn_up_m">
+													Sing up
+												</a>
+											</div>
+										</li>
+									</ul>
+
+								</transition>
+							</nav>
+						</div>
 					</div>
 				</div>
+				
 			</div>
 		</div>
-	</header>
+	</div>
+
+</header>
 
 	<!--конец  шапка/header  end-->
 
@@ -473,61 +520,7 @@
 		</div>
 	</footer>
 
-	<div id="app" class="container">
 
-		<section>
-			<div class="block">
-				<button class="button" @click="activeTab = 1">Set Music</button>
-			</div>
-			<div class="block">
-				<b-switch v-model="showBooks"> Show Books item </b-switch>
-			</div>
-			<b-tabs v-model="activeTab">
-				<b-tab-item label="Pictures">
-					<nav class="panel">
-						<p class="panel-heading">
-							repositories
-						</p>
-						<b-tabs v-model="activeSubTab">
-							<b-tab-item label="Pictures">
-								asdfasdfaswedf
-							</b-tab-item>
-							<b-tab-item label="Jokers">
-								Lorem ipsum dolor sit amet.
-							</b-tab-item>
-						</b-tabs>
-					</nav>
-
-
-				</b-tab-item>
-
-				<b-tab-item label="Music">
-					Lorem <br>
-					ipsum <br>
-					dolor <br>
-					sit <br>
-					amet.
-				</b-tab-item>
-
-				<b-tab-item :visible="showBooks" label="Books">
-					What light is light, if Silvia be not seen? <br>
-					What joy is joy, if Silvia be not by <br>
-					Unless it be to think that she is by <br>
-					And feed upon the shadow of perfection? <br>
-					Except I be by Silvia in the night, <br>
-					There is no music in the nightingale.
-				</b-tab-item>
-
-				<b-tab-item label="Videos" disabled>
-					Nunc nec velit nec libero vestibulum eleifend.
-					Curabitur pulvinar congue luctus.
-					Nullam hendrerit iaculis augue vitae ornare.
-					Maecenas vehicula pulvinar tellus, id sodales felis lobortis eget.
-				</b-tab-item>
-			</b-tabs>
-		</section>
-
-	</div>
 
 
 
