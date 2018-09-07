@@ -16,3 +16,23 @@ Vue.use(Buefy.default)
 const app = new Vue(example)
 
 app.$mount('#app')
+
+new Vue ({
+  el: '#app-1',
+  data:{
+    items:[
+    'Home',
+    'Roadmap',
+    'Team',
+    'Contact'
+    ],
+    show:false,
+  }
+});
+
+
+
+
+
+
+
