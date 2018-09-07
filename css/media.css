@@ -89,12 +89,12 @@
         padding: 0;
     }
     .header_btn .btn {
-     height: 37px;
-     font-size: 15px;
-     padding: 8px 25px;
-     margin: 0px 0px 0 10px;
- }
- .baner .h1 h1 {
+       height: 37px;
+       font-size: 15px;
+       padding: 8px 25px;
+       margin: 0px 0px 0 10px;
+   }
+   .baner .h1 h1 {
     font-size: 63px;
 }
 .baner h2 {
@@ -163,18 +163,18 @@
         margin-top: 105px;
     }
     footer .img_footer img {
-        width: 48%;
-    }
-    footer .a_ul_footer {
-        justify-content: flex-end;
-        padding-right: 16px;
-    }
-    footer .a_ul_footer ul li a {
-        font-size: 14px;
-    }
-    footer .a_ul_footer p {
-        font-size: 14px;
-    }
+     width: 200px;
+ }
+ footer .a_ul_footer {
+    justify-content: flex-end;
+    padding-right: 16px;
+}
+footer .a_ul_footer ul li a {
+    font-size: 14px;
+}
+footer .a_ul_footer p {
+    font-size: 14px;
+}
 
 }
 @media screen and (max-width: 990px){
@@ -244,6 +244,9 @@
     .display-f {
         justify-content: center;
         margin-bottom: 12px;
+    }
+    .h1 {
+        width: 340px;
     }
 
 
@@ -323,10 +326,10 @@
         font-size: 27px;
     }
     .baner p {
-        font-size: 14px;
+        font-size: 18px;
     }
     .baner .h1 h1 {
-        font-size: 38px;
+        font-size: 58px;
     }
     .baner.bnr-mr-r,
     .baner.bnr-mr-f,
@@ -381,6 +384,29 @@
     .baner_mb{
         margin-bottom: 60px;
     }
+    .h1 {
+        width: 280px;
+    }
+    .baner form .in_ok {
+        width: 64px;
+        height: 56px;
+    }
+    .in1 {
+        display: none;
+    }
+ .header_btn .btn {
+    height: 50px;
+    font-size: 16px;
+    padding: 15px 16px;
+    margin: 0px 50px 0 5px;
+    border: none;
+}
+.baner_4 .text.text-left {
+    width: 300px;
+}
+.bg_menu{
+    display: block;
+}
 
 }
 
@@ -392,34 +418,34 @@
         width: 290px;
     }
     .contact .cont_div {
-    width: 290px;
-}
-.carousel-container ul{
-    height: auto;
-}
-.carousel-container ul li{
-    width: 290px;
+        width: 290px;
+    }
+    .carousel-container ul{
+        height: auto;
+    }
+    .carousel-container ul li{
+        width: 290px;
         padding: 18px 15px 15px 18px;
-}
-.carousel-container .cont_img_car{
-    display: none;
-}
-.carousel-container ul .li_bg2{
-    display: none;
-}
-.gallerey_h3_tab {
-    justify-content: center;
-}
-h3{
-    font-size: 30px;
-    line-height: 1.17;
-}
-.text_a_c p{
-    margin-top: 20px;
-}
-.text_a_c {
-    margin-top: 102px;
-}
+    }
+    .carousel-container .cont_img_car{
+        display: none;
+    }
+    .carousel-container ul .li_bg2{
+        display: none;
+    }
+    .gallerey_h3_tab {
+        justify-content: center;
+    }
+    h3{
+        font-size: 30px;
+        line-height: 1.17;
+    }
+    .text_a_c p{
+        margin-top: 20px;
+    }
+    .text_a_c {
+        margin-top: 102px;
+    }
 }
 
 
