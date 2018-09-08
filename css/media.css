@@ -231,7 +231,7 @@ footer .a_ul_footer p {
     .h1 {
         width: 340px;
     }
-    
+
     .baner_5.bgr {
         background-position: center;
     }
@@ -287,11 +287,7 @@ footer .a_ul_footer p {
     footer .img_footer img {
         margin-bottom: 8px;
     }
-    footer .a_ul_footer {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-    }
+   
 }
 
 @media screen and (max-width: 768px){
