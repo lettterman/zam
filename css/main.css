@@ -964,6 +964,10 @@ section.contact {
   text-align: center;
   color: #ffffff;
   font-family: 'MavenPro-Bold';
+  transition: 0.5s;
+}
+.cont_f .contact_form .f_submit:hover{
+  box-shadow: none;
 }
 
 /* страница contact  -  конец end */
