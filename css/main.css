@@ -143,7 +143,8 @@ select.form-control {
 /*банер_1*/
 
 .baner{
-	margin-top: 155px;
+  margin-top: 155px;
+  margin-bottom: 400px;
   max-width: 1440px;
 
 }
@@ -547,6 +548,7 @@ select.form-control {
 }
 .baner.bnr-ml-0{
   margin-left: auto;
+  margin-bottom: 0;
 }
 .baner_5 h3{
   font-family: 'MavenPro-Black';
@@ -567,7 +569,7 @@ select.form-control {
 
 footer{
   margin-top: 200px;
-  background-image: url(../img/bg.svg);
+  background: linear-gradient(146deg, #0e1246, #283c94);
   padding: 100px 0 43px;
 }
 footer a{
@@ -743,7 +745,7 @@ footer .display-f:hover{
 
 
 .class-m{
-  margin: 80px auto -100px;
+  margin: 130px auto -100px;
 }
 
 .cont_div{
@@ -790,10 +792,10 @@ footer .display-f:hover{
   opacity: 0.9;
   overflow: scroll;
 }
-.cont_div:hover .pop-up{
-  display: block;
 
-}
+
+/*.cont_div:hover .pop-up{display: block;}*/
+
 
 
 .team_section .cont_m{
@@ -843,7 +845,15 @@ footer .display-f:hover{
 .team_section .cont_div .pop_text  h4{
   color: #fff;
 }
-
+.pop-up{
+  display: none;
+}
+.cont_div .img_bg{
+  transition: 0.5s;
+}
+.team .cont_div .img_bg:hover {
+    box-shadow: none;
+}
 
 /* страница team  -  конец - end */
 
@@ -972,6 +982,7 @@ section.contact {
   display: -ms-flex;
   display: -o-flex;
   display: flex;
+  justify-content: center;
 }
 .carousel-container {
   margin: 15px auto;
