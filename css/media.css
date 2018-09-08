@@ -7,10 +7,9 @@
     }
     .baner_1.bgr {
         background-size: auto;
+        margin-left: 5px;
     }
-    .baner.bnr-mr-r {
-        margin-right: 10px;
-    }
+    
     .baner h2 {
         font-size: 54px;
         letter-spacing: 0.1px;
@@ -38,14 +37,6 @@
     }
     .baner {
         margin-top: 155px;
-        margin-left: 100px;
-    }
-    .baner.bnr-mr-f {
-        margin-right: 100px;
-    }
-    .baner.bnr-mr {
-        margin-left: 100px;
-        margin-right: 100px;
     }
     .container {
         max-width: 1045px;
@@ -89,12 +80,12 @@
         padding: 0;
     }
     .header_btn .btn {
-       height: 37px;
-       font-size: 15px;
-       padding: 8px 25px;
-       margin: 0px 0px 0 10px;
-   }
-   .baner .h1 h1 {
+     height: 37px;
+     font-size: 15px;
+     padding: 8px 25px;
+     margin: 0px 0px 0 10px;
+ }
+ .baner .h1 h1 {
     font-size: 63px;
 }
 .baner h2 {
@@ -123,10 +114,6 @@
 	.baner_1.bgr {
         background-size: contain;
     }
-    .baner {
-        margin-top: 130px;
-        margin-left: 20px;
-    }
     .baner .h1 h1 {
         font-size: 80px;
         margin: 15px 0 0;
@@ -137,10 +124,6 @@
     .baner p {
         font-size: 17px;
         margin: 20px 0px 15px;
-    }
-    .baner.bnr-mr {
-        margin-left: 20px;
-        margin-right: 20px;
     }
     .gallery {
         margin: 225px 0 225px;
@@ -163,9 +146,9 @@
         margin-top: 105px;
     }
     footer .img_footer img {
-     width: 200px;
- }
- footer .a_ul_footer {
+       width: 200px;
+   }
+   footer .a_ul_footer {
     justify-content: flex-end;
     padding-right: 16px;
 }
@@ -310,7 +293,7 @@ footer .a_ul_footer p {
     }
     header {
         padding: 20px 10px 10px;
-        width: 300px;
+        width: 320px;
         margin: 0 auto;
     }
     header .nav_header,
@@ -378,6 +361,9 @@ footer .a_ul_footer p {
     .baner .bgr {
         height: 300px;
     }
+    .baner_1.bgr {
+        margin-left: 0;
+    }
     .baner form {
         margin: 50px 0 40px;
     }
@@ -394,18 +380,51 @@ footer .a_ul_footer p {
     .in1 {
         display: none;
     }
- .header_btn .btn {
-    height: 50px;
-    font-size: 16px;
-    padding: 15px 16px;
-    margin: 0px 50px 0 5px;
-    border: none;
+    .header_btn .btn {
+        height: 50px;
+        font-size: 16px;
+        padding: 15px 16px;
+        margin: 0px 50px 0 5px;
+        border: none;
+    }
+    .baner_4 .text.text-left {
+        width: 300px;
+    }
+    .bg_menu{
+        display: block;
+    }
+    .baner_4.bgr{
+        background-image: none;
+    }
+    .baner_4_mb{
+        display: block;
+    }
+    h3 {
+    font-size: 34px;
 }
-.baner_4 .text.text-left {
-    width: 300px;
+.pricing_cont .column.column_top p a {
+    font-size: 15px;
 }
-.bg_menu{
-    display: block;
+.pricing_cont .column p{
+    font-size: 13px;
+}
+.pricing_cont .align-center p{
+    font-size: 15px;
+}
+.column {
+    padding: 28px 0px 27px;
+}
+.column .align-center {
+    text-align: right;
+}
+.baner_5 h3 {
+    font-size: 34px;
+}
+.text_botton p{
+    font-size: 21px;
+}
+.gallery_blok{
+        padding: 14px 12px;
 }
 
 }

@@ -144,7 +144,6 @@ select.form-control {
 
 .baner{
 	margin-top: 155px;
-	margin-left: 150px;
   max-width: 1440px;
 
 }
@@ -154,7 +153,8 @@ select.form-control {
   width: 100%;
   background-position-x: right;
   background-repeat: no-repeat;
-  background-size: unset;
+  background-size: contain;
+  margin-left: 60px;
 }
 .baner .h1 h1{
 	font-size: 100px;
@@ -281,9 +281,6 @@ select.form-control {
   background-size: contain;
   background-position-y: center;
 }
-.baner.bnr-mr-r{
-  margin-right: 90px;
-}
 .baner  h2{
   font-size: 64px;
   font-weight: 900;
@@ -330,18 +327,15 @@ select.form-control {
 
 /*банер_3*/
 
-.baner.bnr-mr-f{
-  margin-left: 0px;
-  margin-right: 150px;
-}
-
 .baner_3.bgr {
   background-image: url(../img/group.svg);
   height: 100%;
   width: 100%;
   background-position-x: right;
   background-repeat: no-repeat;
-  background-size: unset;
+  background-size: contain;
+  margin-left: -25px;
+  background-position-y: 60%;
 }
 
 
@@ -360,10 +354,16 @@ select.form-control {
   background-size: auto;
   background-position-y: bottom;
 }
-
-.baner.bnr-mr{
-  margin-left: 130px;
-  margin-right: 129px;
+.baner_4-md.bgr {
+  background-image: url(../img/Illustration.png);
+  height: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  margin-top: 80px;
+}
+.baner_4_mb{
+  display: none;
 }
 .text.text-left{
   width: 625px;
@@ -543,6 +543,7 @@ select.form-control {
   width: 100%;
   background-position-x: right;
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 .baner.bnr-ml-0{
   margin-left: auto;
@@ -1170,41 +1171,37 @@ section.contact {
  display: flex;
  flex-direction: column;
  align-items: flex-end;
+ width: 100%;
 }
 .bg_menu ul{
-  -ms-align-self: center;
-  align-self: center;
-  background: #fff;
-  opacity: 1;
-  width: 100vw;
-  margin: 0;
-  padding: 0;
+ background: #fff;
+ opacity: 1;
+ margin: 0 -10px 0 0;
+ padding: 0 9px;
 }
 .bg_menu li{
- -ms-align-items: center;
- align-items: center;
- background: #fff;
- cursor: pointer;
- display: -webkit-flex;
- display: -moz-flex;
- display: -ms-flex;
- display: -o-flex;
- display: flex;
- font-size: 1.5em;
- padding: 6px 0;
- justify-content: left;
- list-style-type: none;
- transition: all .5s ease;
- width: 100%;
- font-size: 16px;
- font-family: 'MavenPro-Regular';
- margin: 16px 0px;
+  -ms-align-items: center;
+  align-items: center;
+  cursor: pointer;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  font-size: 1.5em;
+  padding: 6px 0px;
+  justify-content: left;
+  list-style-type: none;
+  transition: all .5s ease;
+  font-size: 16px;
+  font-family: 'MavenPro-Regular';
+  margin: 16px 0px;
 }
 
 #app-1{
- position: absolute;
- right: 0;
- width: 100%;
+  position: absolute;
+  right: 0;
+  width: 100%;
 }
 
 .fade-enter-active,
