@@ -23,8 +23,10 @@
 
 <!-- Template style Start -->
 <link rel="stylesheet" href="css/bootstrap.css">
-<link rel="stylesheet" href="css/main.css">
 <link rel="stylesheet" href="css/font.css">
+<link rel="stylesheet" href="css/bulma.css">
+<link rel="stylesheet" href="css/vue-min.css">
+<link rel="stylesheet" href="css/main.css">
 <link rel="stylesheet" href="css/media.css">
 <!-- Template style End -->
 
@@ -64,7 +66,7 @@
 					</div>
 					<div class="header_btn">
 						<div>
-							<section class="container">
+							<section >
 								<form class="form-horizontal">
 									<select class="form-control">
 										<option>RUS</option>
@@ -96,7 +98,7 @@
 											<li v-for="item in items">{{ item }}</li>
 											<li class="m_d-f-c" >
 												<div>
-													<section class="container">
+													<section>
 														<form class="form-horizontal form-horizontal_m">
 															<select class="form-control">
 																<option>RUS</option>
@@ -129,11 +131,11 @@
 
 	</header>
 
-<!--конец  шапка/header  end-->
+	<!--конец  шапка/header  end-->
 
-<section class="team class-m">
-	<div class="team_section">
-		<h3>Our <span class="s1">team</span></h3>
+	<section class="team class-m">
+		<div class="team_section">
+			<h3>Our <span class="s1">team</span></h3>
 			<!-- <div class="container cont_m">
 				<div class="row justify-content-center ">
 					<div class="col-auto"><div class="div_a"><a href="#">All</a></div></div>
@@ -145,19 +147,27 @@
 					<div class="col-auto"><div class="div_a"><a href="#">Advisors Consultan</a></div></div>
 				</div>
 			</div> -->
-			<div class="row justify-content-center ">
-				<div class="col-auto">
-					<div class="cont_div">
-						<div class="img_bg"></div>
-						<h4>ZIliya Biniaminov</h4>
-						<span class="s2">CEO, Co-Founder</span>
+			<div id="root">
+
+				<div class="row justify-content-center ">
+
+					<div class="col-auto button" @click="showAddModal=true">
+						<div class="cont_div">
+							<div class="img_bg"></div>
+							<h4>ZIliya Biniaminov</h4>
+							<span class="s2">CEO, Co-Founder</span>
+						</div>
+
+					</div>
+					<my-modal v-show="showAddModal" @close="showAddModal=false">
+
 						<div class="pop-up">
 							<div class="pop">
 								<div class="row justify-content-center align-items-center">
-									<div class="col-auto">
+									<div class="col-auto col">
 										<div class="img_bg img_bg_pop"></div> 
 									</div>
-									<div class="col-xl-4 col-lg-4 col-md-5 col-sm-6 col-12"> 
+									<div class="col-xl-4 col-lg-4 col-md-5 col-sm-6 col"> 
 										<div class="pop_text">
 											<h4>Iliya Biniaminov</h4>
 											<span class="s2">CEO, Co-Founder</span>
@@ -170,20 +180,26 @@
 								</div>
 							</div>
 						</div>
+
+					</my-modal> 
+
+
+
+					<div class="col-auto button" @click="showAbbModal=true">
+						<div class="cont_div">
+							<div class="img_bg"></div>
+							<h4>Alex Mikh</h4>
+							<span class="s2">CVO, Co-Founder</span>
+						</div>
 					</div>
-				</div>
-				<div class="col-auto">
-					<div class="cont_div">
-						<div class="img_bg"></div>
-						<h4>Alex Mikh</h4>
-						<span class="s2">CVO, Co-Founder</span>
+					<my-modal v-show="showAbbModal" @close="showAbbModal=false">
 						<div class="pop-up">
 							<div class="pop">
 								<div class="row justify-content-center align-items-center">
-									<div class="col-auto">
+									<div class="col-auto col">
 										<div class="img_bg img_bg_pop"></div> 
 									</div>
-									<div class="col-xl-4 col-lg-4 col-md-5 col-sm-6 col-12"> 
+									<div class="col-xl-4 col-lg-4 col-md-5 col-sm-6 col"> 
 										<div class="pop_text">
 											<h4>Alex Mikh</h4>
 											<span class="s2">CVO, Co-Founder</span>
@@ -196,22 +212,27 @@
 								</div>
 							</div>
 						</div>
+					</my-modal> 
+
+
+
+					<div class="col-auto button" @click="showAssModal=true">
+						<div class="cont_div">
+							<div class="img_bg"></div>
+							<h4>George Gus</h4>
+							<span class="s2">CMO, Co-Founder</span>
+						</div>
 					</div>
-				</div>
-				<div class="col-auto">
-					<div class="cont_div">
-						<div class="img_bg"></div>
-						<h4>George Gus</h4>
-						<span class="s2">CMO, Co-Founder</span>
+					<my-modal v-show="showAssModal" @close="showAssModal=false">
 						<div class="pop-up">
 							<div class="pop">
 								<div class="row justify-content-center align-items-center">
-									<div class="col-auto">
+									<div class="col-auto col">
 										<div class="img_bg img_bg_pop"></div> 
 									</div>
-									<div class="col-xl-4 col-lg-4 col-md-5 col-sm-6 col-12"> 
+									<div class="col-xl-4 col-lg-4 col-md-5 col-sm-6 col"> 
 										<div class="pop_text">
-											<h4>George Gusi</h4>
+											<h4>George Gus</h4>
 											<span class="s2">CMO, Co-Founder</span>
 											<ul>
 												<li>Founder of MKG Real Estate & Investment, a leading brokerage company for asset management in the Middle East and North Africa with a head office in Dubai, UAE</li>
@@ -222,20 +243,25 @@
 								</div>
 							</div>
 						</div>
+					</my-modal> 
+
+
+
+					<div class="col-auto button" @click="showAffModal=true">
+						<div class="cont_div">
+							<div class="img_bg"></div>
+							<h4>Zakaria Mekreloufi</h4>
+							<span class="s2">CEO of the MENA region</span>
+						</div>
 					</div>
-				</div>
-				<div class="col-auto">
-					<div class="cont_div">
-						<div class="img_bg"></div>
-						<h4>Zakaria Mekreloufi</h4>
-						<span class="s2">CEO of the MENA region</span>
+					<my-modal v-show="showAffModal" @close="showAffModal=false">
 						<div class="pop-up">
 							<div class="pop">
 								<div class="row justify-content-center align-items-center">
-									<div class="col-auto">
+									<div class="col-auto col">
 										<div class="img_bg img_bg_pop"></div> 
 									</div>
-									<div class="col-xl-4 col-lg-4 col-md-5 col-sm-6 col-12"> 
+									<div class="col-xl-4 col-lg-4 col-md-5 col-sm-6 col"> 
 										<div class="pop_text">
 											<h4>Zakaria Mekreloufi</h4>
 											<span class="s2">CEO of the MENA region</span>
@@ -248,20 +274,25 @@
 								</div>
 							</div>
 						</div>
+					</my-modal> 
+
+
+
+					<div class="col-auto button" @click="showAggModal=true">
+						<div class="cont_div">
+							<div class="img_bg"></div>
+							<h4>Andrew Skurlatov</h4>
+							<span class="s2">CTO</span>
+						</div>
 					</div>
-				</div>
-				<div class="col-auto">
-					<div class="cont_div">
-						<div class="img_bg"></div>
-						<h4>Andrew Skurlatov</h4>
-						<span class="s2">CTO</span>
+					<my-modal v-show="showAggModal" @close="showAggModal=false">
 						<div class="pop-up">
 							<div class="pop">
 								<div class="row justify-content-center align-items-center">
-									<div class="col-auto">
+									<div class="col-auto col">
 										<div class="img_bg img_bg_pop"></div> 
 									</div>
-									<div class="col-xl-4 col-lg-4 col-md-5 col-sm-6 col-12"> 
+									<div class="col-xl-4 col-lg-4 col-md-5 col-sm-6 col"> 
 										<div class="pop_text">
 											<h4>Andrew Skurlatov</h4>
 											<span class="s2">CTO</span>
@@ -274,20 +305,25 @@
 								</div>
 							</div>
 						</div>
+					</my-modal>
+
+
+
+					<div class="col-auto button" @click="showArrModal=true">
+						<div class="cont_div">
+							<div class="img_bg"></div>
+							<h4>Ivan Podtsebnev</h4>
+							<span class="s2">Head of DevOps & Security</span>
+						</div>
 					</div>
-				</div>
-				<div class="col-auto">
-					<div class="cont_div">
-						<div class="img_bg"></div>
-						<h4>Ivan Podtsebnev</h4>
-						<span class="s2">Head of DevOps & Security</span>
+					<my-modal v-show="showArrModal" @close="showArrModal=false">
 						<div class="pop-up">
 							<div class="pop">
 								<div class="row justify-content-center align-items-center">
-									<div class="col-auto">
+									<div class="col-auto col">
 										<div class="img_bg img_bg_pop"></div> 
 									</div>
-									<div class="col-xl-4 col-lg-4 col-md-5 col-sm-6 col-12"> 
+									<div class="col-xl-4 col-lg-4 col-md-5 col-sm-6 col"> 
 										<div class="pop_text">
 											<h4>Ivan Podtsebnev</h4>
 											<span class="s2">Head of DevOps & Security</span>
@@ -300,20 +336,25 @@
 								</div>
 							</div>
 						</div>
+					</my-modal> 
+
+
+
+					<div class="col-auto button" @click="showAwwModal=true">
+						<div class="cont_div">
+							<div class="img_bg"></div>
+							<h4>Nikita Velko</h4>
+							<span class="s2">Senior frontend developer </span>
+						</div>
 					</div>
-				</div>
-				<div class="col-auto">
-					<div class="cont_div">
-						<div class="img_bg"></div>
-						<h4>Nikita Velko</h4>
-						<span class="s2">Senior frontend developer </span>
+					<my-modal v-show="showAwwModal" @close="showAwwModal=false">
 						<div class="pop-up">
 							<div class="pop">
 								<div class="row justify-content-center align-items-center">
-									<div class="col-auto">
+									<div class="col-auto col">
 										<div class="img_bg img_bg_pop"></div> 
 									</div>
-									<div class="col-xl-4 col-lg-4 col-md-5 col-sm-6 col-12"> 
+									<div class="col-xl-4 col-lg-4 col-md-5 col-sm-6 col"> 
 										<div class="pop_text">
 											<h4>Nikita Velko</h4>
 											<span class="s2">Senior frontend developer </span>
@@ -326,20 +367,25 @@
 								</div>
 							</div>
 						</div>
+					</my-modal> 
+
+
+
+					<div class="col-auto button" @click="showAqqModal=true">
+						<div class="cont_div">
+							<div class="img_bg"></div>
+							<h4>Alex Ponomaryov</h4>
+							<span class="s2">iOS Developer</span>
+						</div>
 					</div>
-				</div>
-				<div class="col-auto">
-					<div class="cont_div">
-						<div class="img_bg"></div>
-						<h4>Alex Ponomaryov</h4>
-						<span class="s2">iOS Developer</span>
+					<my-modal v-show="showAqqModal" @close="showAqqModal=false">
 						<div class="pop-up">
 							<div class="pop">
 								<div class="row justify-content-center align-items-center">
-									<div class="col-auto">
+									<div class="col-auto col">
 										<div class="img_bg img_bg_pop"></div> 
 									</div>
-									<div class="col-xl-4 col-lg-4 col-md-5 col-sm-6 col-12"> 
+									<div class="col-xl-4 col-lg-4 col-md-5 col-sm-6 col"> 
 										<div class="pop_text">
 											<h4>Alex Ponomaryov</h4>
 											<span class="s2">iOS Developer</span>
@@ -352,20 +398,25 @@
 								</div>
 							</div>
 						</div>
+					</my-modal> 
+
+
+
+					<div class="col-auto button" @click="showAzzModal=true">
+						<div class="cont_div">
+							<div class="img_bg"></div>
+							<h4>Daniel Danilkin</h4>
+							<span class="s2">Senior backend developer</span>
+						</div>
 					</div>
-				</div>
-				<div class="col-auto">
-					<div class="cont_div">
-						<div class="img_bg"></div>
-						<h4>Daniel Danilkin</h4>
-						<span class="s2">Senior backend developer</span>
+					<my-modal v-show="showAzzModal" @close="showAzzModal=false">
 						<div class="pop-up">
 							<div class="pop">
 								<div class="row justify-content-center align-items-center">
-									<div class="col-auto">
+									<div class="col-auto col">
 										<div class="img_bg img_bg_pop"></div> 
 									</div>
-									<div class="col-xl-4 col-lg-4 col-md-5 col-sm-6 col-12"> 
+									<div class="col-xl-4 col-lg-4 col-md-5 col-sm-6 col"> 
 										<div class="pop_text">
 											<h4>Daniel Danilkin</h4>
 											<span class="s2">Senior backend developer</span>
@@ -378,20 +429,25 @@
 								</div>
 							</div>
 						</div>
+					</my-modal> 
+
+
+
+					<div class="col-auto button" @click="showAxxModal=true">
+						<div class="cont_div">
+							<div class="img_bg"></div>
+							<h4>Dzhavid Khalilov</h4>
+							<span class="s2">Android developer</span>
+						</div>
 					</div>
-				</div>
-				<div class="col-auto">
-					<div class="cont_div">
-						<div class="img_bg"></div>
-						<h4>Dzhavid Khalilov</h4>
-						<span class="s2">Android developer</span>
+					<my-modal v-show="showAxxModal" @close="showAxxModal=false">
 						<div class="pop-up">
 							<div class="pop">
 								<div class="row justify-content-center align-items-center">
-									<div class="col-auto">
+									<div class="col-auto col">
 										<div class="img_bg img_bg_pop"></div> 
 									</div>
-									<div class="col-xl-4 col-lg-4 col-md-5 col-sm-6 col-12"> 
+									<div class="col-xl-4 col-lg-4 col-md-5 col-sm-6 col"> 
 										<div class="pop_text">
 											<h4>Dzhavid Khalilov</h4>
 											<span class="s2">Android developer</span>
@@ -404,20 +460,25 @@
 								</div>
 							</div>
 						</div>
+					</my-modal> 
+
+
+
+					<div class="col-auto button" @click="showAvvModal=true">
+						<div class="cont_div">
+							<div class="img_bg"></div>
+							<h4>Zakaria Mekreloufi</h4>
+							<span class="s2">CEO of the MENA region</span>
+						</div>
 					</div>
-				</div>
-				<div class="col-auto">
-					<div class="cont_div">
-						<div class="img_bg"></div>
-						<h4>Zakaria Mekreloufi</h4>
-						<span class="s2">CEO of the MENA region</span>
+					<my-modal v-show="showAvvModal" @close="showAvvModal=false">
 						<div class="pop-up">
 							<div class="pop">
 								<div class="row justify-content-center align-items-center">
-									<div class="col-auto">
+									<div class="col-auto col">
 										<div class="img_bg img_bg_pop"></div> 
 									</div>
-									<div class="col-xl-4 col-lg-4 col-md-5 col-sm-6 col-12"> 
+									<div class="col-xl-4 col-lg-4 col-md-5 col-sm-6 col"> 
 										<div class="pop_text">
 											<h4>Zakaria Mekreloufi</h4>
 											<span class="s2">CEO of the MENA region</span>
@@ -430,20 +491,25 @@
 								</div>
 							</div>
 						</div>
+					</my-modal> 
+
+
+
+					<div class="col-auto button" @click="showAmmModal=true">
+						<div class="cont_div">
+							<div class="img_bg"></div>
+							<h4>Zakaria Mekreloufi</h4>
+							<span class="s2">CEO of the MENA region</span>
+						</div>
 					</div>
-				</div>
-				<div class="col-auto">
-					<div class="cont_div">
-						<div class="img_bg"></div>
-						<h4>Zakaria Mekreloufi</h4>
-						<span class="s2">CEO of the MENA region</span>
+					<my-modal v-show="showAmmModal" @close="showAmmModal=false">
 						<div class="pop-up">
 							<div class="pop">
 								<div class="row justify-content-center align-items-center">
-									<div class="col-auto">
+									<div class="col-auto col">
 										<div class="img_bg img_bg_pop"></div> 
 									</div>
-									<div class="col-xl-4 col-lg-4 col-md-5 col-sm-6 col-12"> 
+									<div class="col-xl-4 col-lg-4 col-md-5 col-sm-6 col"> 
 										<div class="pop_text">
 											<h4>Zakaria Mekreloufi</h4>
 											<span class="s2">CEO of the MENA region</span>
@@ -456,8 +522,11 @@
 								</div>
 							</div>
 						</div>
-					</div>
+					</my-modal> 
+
+
 				</div>
+
 			</div>
 		</div>
 	</section>
@@ -571,6 +640,7 @@
 	<script src="js/slidear.js"></script>
 	<script src="js/classie.js"></script>
 	<script src="js/main.js"></script>
+	<script  type="text/javascript" src="js/modal.js" ></script>
 
 </body>
 </html>
