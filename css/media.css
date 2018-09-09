@@ -429,6 +429,13 @@ footer .a_ul_footer p {
     .gallery_blok{
         padding: 14px 12px;
     }
+    .modal-content, .modal-card {
+    margin: 0 0px;
+}
+.pop-up .img_bg_pop {
+    width: 310px;
+    height: 439px;
+}
 
 }
 
@@ -468,7 +475,22 @@ footer .a_ul_footer p {
     .text_a_c {
         margin-top: 102px;
     }
+    .pop-up .img_bg_pop {
+    width: 310px;
+    height: 439px;
+    margin-right: 0px;
 }
+.pop_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pop-up {
+    display: flex;
+    justify-content: center;
+}
+}
+
 
 
 

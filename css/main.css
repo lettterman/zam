@@ -21,6 +21,9 @@ h3{
   color: #2a3271;
   margin: 0 0 50px;
 }
+input {
+  outline:none;
+}
 
 /*шапка header*/
 
@@ -34,7 +37,7 @@ header {
   right: 0;
   margin: 0 auto;
   background-color: #fff;
-  z-index: 1000;
+  z-index: 30;
   opacity: 0.95;
 }
 
@@ -757,19 +760,20 @@ footer .display-f:hover{
   background-color: #c5c5c5;
   box-shadow: 15px 25px 42px 0 #c5c5c5;
 }
-.cont_div .img_bg_pop{
+.pop-up .img_bg_pop{
   width: 359px;
   height: 539px;
   box-shadow: none;
+  background-color: #c5c5c5;
+  margin-right: 50px;
+}
+.modal-background{
+ background-color: rgba(11, 14, 67, 0.95);
+}
+.box{
+  background-color: rgba(11, 14, 67, 0.95);
 }
 .pop-up{
-  display: none;
-  position: fixed;
-  z-index: 10;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
   margin: auto;
   width: 100%;
   height: 100%;
@@ -777,26 +781,31 @@ footer .display-f:hover{
   box-sizing: border-box;
 
 }
-.pop{
-  width: 100%;
+.modal-content {
   height: 100%;
-  position: absolute;
-  z-index: 2;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
   background-color: rgba(11, 14, 67, 0.95);
-  padding: 80px 0;
+  padding: 20px 0;
   opacity: 0.9;
   overflow: scroll;
 }
-
-
-/*.cont_div:hover .pop-up{display: block;}*/
-
-
+.pop{
+  width: 95%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+  top: auto;
+  bottom: auto;
+  left: 0;
+  right: 0;
+  margin: auto;
+  
+}
+.team .button {
+  height: auto;
+  border: none;
+  background-color: transparent;
+  text-align: left;
+}
 
 .team_section .cont_m{
   margin-bottom: 50px;
@@ -806,7 +815,7 @@ footer .display-f:hover{
 .team_section .cont_div{
   margin-bottom: 40px;
 }
-.team_section .cont_div h4{
+.team_section h4{
   font-size: 21px;
   font-weight: bold;
   font-style: normal;
@@ -817,7 +826,7 @@ footer .display-f:hover{
   font-family: 'MavenPro-Bold';
   margin-top: 23px;
 }
-.team_section .cont_div .s2{
+.team_section .s2{
   font-size: 15px;
   font-weight: normal;
   font-style: normal;
@@ -841,20 +850,22 @@ footer .display-f:hover{
   letter-spacing: 0.6px;
   color: #ffffff;
   font-family: 'MavenPro-Regular';
+  list-style-type: disc;
 }
-.team_section .cont_div .pop_text  h4{
+.team_section .pop_text  h4{
   color: #fff;
 }
-.pop-up{
-  display: none;
-}
-.cont_div .img_bg{
+
+.team  .img_bg{
   transition: 0.5s;
 }
-.team .cont_div .img_bg:hover {
-    box-shadow: none;
+.team .img_bg:hover {
+  box-shadow: none;
 }
-
+.modal-content, 
+.modal-card {
+  width: 100%;
+}
 /* страница team  -  конец - end */
 
 
@@ -863,7 +874,7 @@ footer .display-f:hover{
 
 
 section.contact {
-    margin: 130px auto -100px;
+  margin: 130px auto -100px;
 }
 
 .contact .cont_div {
