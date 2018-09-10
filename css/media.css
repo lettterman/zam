@@ -16,10 +16,6 @@
     .text.text-left {
         width: 510px;
     }
-    .baner_4.bgr {
-        background-size: 58%;
-        background-position-y: 45%;
-    }
     footer .img_footer img {
         padding-right: 10px;
     }
@@ -308,7 +304,7 @@ footer .a_ul_footer p {
         margin: 100px auto 0;
     }
     .baner h2 {
-        font-size: 27px;
+        font-size: 34px;
     }
     .baner p {
         font-size: 18px;
@@ -394,9 +390,6 @@ footer .a_ul_footer p {
     }
     .bg_menu{
         display: block;
-    }
-    .baner_4.bgr{
-        background-image: none;
     }
     .baner_4_mb{
         display: block;

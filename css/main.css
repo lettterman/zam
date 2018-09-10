@@ -32,7 +32,6 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  max-width: 1334px;
   left: 0;
   right: 0;
   margin: 0 auto;
@@ -103,7 +102,7 @@ select.form-control {
 
 .header_btn .btn{
   height: 40px;
-  font-family: 'MavenPro-Bold';
+  font-family: 'MavenPro-Medium';
   font-size: 16px;
   font-weight: bold;
   font-style: normal;
@@ -113,7 +112,7 @@ select.form-control {
   text-align: center;
   color: #56c0fd;
   padding: 10px 32px;
-  border: 1px solid #56c0fd;
+  border: 2px solid #56c0fd;
   margin: 0px 0px 0 16px;
   border-radius: 33px;
   transition: .6s;
@@ -308,7 +307,7 @@ select.form-control {
   background-color: #8de37f;
   box-shadow: 0 20px 42px -8px rgba(141, 227, 127, 0.82);
   padding: 21px 32px;
-  font-family: 'MavenPro-Bold';
+  font-family: 'MavenPro-Medium';
 }
 .b-btn-a {
   margin: 65px 0;
@@ -344,6 +343,9 @@ select.form-control {
 
 /*банер_3 конец*/
 
+.col-12{
+  padding: 0 !important;
+}
 
 /*банер_4*/
 
@@ -600,6 +602,11 @@ footer .img_a.btn_a a{
   border-radius: 35px;
   border: solid 2px #ffffff;
   padding: 22px 37px;
+  transition: 0.5s;
+  text-decoration: none;
+}
+footer .img_a.btn_a a:hover {
+    background-color: #283C98;
 }
 footer .img_a.btn_a a img{
   padding-right: 30px;
@@ -664,6 +671,10 @@ footer .img_footer img{
   padding-right: 19px;
   width: 200px;
   margin-bottom: 15px;
+  transition: 0.5s;
+}
+footer .img_footer img:hover {
+    opacity: 0.7;
 }
 footer .img_footer {
   display: flex;
