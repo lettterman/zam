@@ -349,13 +349,13 @@ select.form-control {
 
 
 .baner_4.bgr {
-  background-image: url(../img/Illustration.png);
-  height: 100%;
-  width: 100%;
-  background-position-x: right;
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position-y: bottom;
+      background-image: url(../img/Illustration.png);
+    height: 100%;
+    width: 100%;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: center;
 }
 .baner_4-md.bgr {
   background-image: url(../img/Illustration.png);
@@ -368,11 +368,8 @@ select.form-control {
 .baner_4_mb{
   display: none;
 }
-.text.text-left{
-  width: 625px;
-}
-.text.text-left p{
-  width: 412px;
+.text.text-right{
+  text-align: right;
 }
 /*банер_4 конец*/
 
