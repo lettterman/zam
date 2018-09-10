@@ -38,12 +38,11 @@ header {
   margin: 0 auto;
   background-color: #fff;
   z-index: 30;
-  opacity: 0.95;
 }
-
-.logo_header {
-  display: flex;
-  align-items: center;
+.logo_header a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
 }
 .logo_header img {
   margin-right: 15px;
@@ -752,7 +751,7 @@ footer .display-f:hover{
 }
 
 .cont_div{
-  width: 263px;
+  width: 256px;
 
 }
 .cont_div .img_bg{
@@ -1204,6 +1203,7 @@ section.contact {
  opacity: 1;
  margin: 0 -10px 0 0;
  padding: 0 9px;
+ width: 100%;
 }
 .bg_menu li{
   -ms-align-items: center;
@@ -1227,7 +1227,7 @@ section.contact {
 #app-1{
   position: absolute;
   right: 0;
-  width: 100%;
+  width: 100vw;
 }
 
 .fade-enter-active,

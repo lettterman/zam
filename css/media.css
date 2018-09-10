@@ -6,7 +6,6 @@
         font-size: 85px;
     }
     .baner_1.bgr {
-        background-size: auto;
         margin-left: 5px;
     }
     
@@ -295,8 +294,8 @@ footer .a_ul_footer p {
         display: none;
     }
     header {
-        padding: 20px 10px 10px;
-        width: 320px;
+        padding: 20px 10px 14px;
+        width: 100%;
         margin: 0 auto;
     }
     header .nav_header,
